@@ -3,6 +3,13 @@ import { Inter } from 'next/font/google'
 import styles from './page.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
+export const metadata = {
+  title: 'Fabio Almeida',
+  description: 'English version of Fabio Almeida\'s Curriculum.',
+  icons: {
+    icon: '/favicon.ico',
+  }
+};
 
 export default function Home() {
   return (
