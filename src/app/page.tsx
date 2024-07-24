@@ -19,7 +19,7 @@ function getData(): CV | null {
 }
 
 export const metadata = {
-  title: "Fabio Almeida",
+  title: "Fabio Almeida | Resume",
   description: "English version of Fabio Almeida's Curriculum.",
   icons: {
     icon: "/favicon.ico",
