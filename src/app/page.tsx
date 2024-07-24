@@ -1,7 +1,22 @@
 import { Roboto } from "next/font/google";
 import "./page.module.css";
+import yaml from "js-yaml";
+import fs from "fs";
+import { CV } from "@/types";
 
 const font = Roboto({ subsets: ["latin"], weight: "400" });
+
+function getData(): CV | null {
+  // Get document, or throw exception on error
+  try {
+    const doc = yaml.load(fs.readFileSync("data/cv/en.yaml", "utf8")) as CV;
+    return doc;
+  } catch (e) {
+    console.log(e);
+  }
+
+  return null;
+}
 
 export const metadata = {
   title: "Fabio Almeida",
@@ -11,18 +26,24 @@ export const metadata = {
   },
 };
 
-export default function Home() {
+export default async function Home() {
+  const data = getData();
+
+  if (!data) {
+    return (
+      <h1 className="text-3xl font-bold pb-2 flex justify-center items-center h-screen">
+        Error!
+      </h1>
+    );
+  }
+
   return (
     <div className={`${font.className} container max-w-4xl p-10 text-zinc-800`}>
       {/* Header */}
       <header className="py-3">
-        <h1 className="text-3xl font-bold pb-2">Fabio Almeida</h1>
-        <p className="text-lg italic pb-2 font-bold">
-          Full Stack Developer / Drupal Specialist
-        </p>
-        <p className="text-lg italic pb-2">
-          Porto Alegre, Rio Grande do Sul, Brasil
-        </p>
+        <h1 className="text-3xl font-bold pb-2">{data.name}</h1>
+        <p className="text-lg italic pb-2 font-bold">{data.position}</p>
+        <p className="text-lg italic pb-2">{data.location}</p>
       </header>
       <hr />
       {/* Contact */}
@@ -30,25 +51,19 @@ export default function Home() {
         <h2 className="text-xl pb-2 font-bold underline">Contact</h2>
         <p className="pb-2">
           <a href="tel:+55 51 981202690" className="underline text-blue-600">
-            +55 (51) 98120-2690
+            {data.phone}
           </a>
           <span className="pb-1 pl-1 text-sm text-zinc-500">(Mobile)</span>
         </p>
         <p className="pb-2">
-          <a
-            href="https://www.linkedin.com/in/fabioalmeidaweb/"
-            className="underline text-blue-600"
-          >
-            https://www.linkedin.com/in/fabioalmeidaweb
+          <a href={data.linkedin} className="underline text-blue-600">
+            {data.linkedin}
           </a>
           <span className="pb-1 pl-1 text-sm text-zinc-500">(LinkedIn)</span>
         </p>
         <p className="pb-2">
-          <a
-            href="mailto:fabio.natito@gmail.com"
-            className="underline text-blue-600"
-          >
-            fabio.natito@gmail.com
+          <a href={`mailto:${data.email}`} className="underline text-blue-600">
+            {data.email}
           </a>
           <span className="pb-1 pl-1 text-sm text-zinc-500">(E-mail)</span>
         </p>
