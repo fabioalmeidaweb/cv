@@ -1,7 +1,8 @@
-import { Inter } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./page.module.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const font = Roboto({ subsets: ["latin"], weight: "400" });
+
 export const metadata = {
   title: "Fabio Almeida",
   description: "English version of Fabio Almeida's Curriculum.",
@@ -12,7 +13,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div className="container max-w-4xl p-10 text-zinc-800">
+    <div className={`${font.className} container max-w-4xl p-10 text-zinc-800`}>
       {/* Header */}
       <header className="py-3">
         <h1 className="text-3xl font-bold pb-2">Fabio Almeida</h1>
