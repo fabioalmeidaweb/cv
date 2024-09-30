@@ -5,6 +5,8 @@ import fs from "fs";
 import { CV, CVProps } from "@/types";
 import Header from "@/components/Header";
 import Contacts from "@/components/Contacts";
+import About from "@/components/About";
+import Skills from "@/components/Skills";
 
 const font = Roboto({ subsets: ["latin"], weight: "400" });
 
@@ -47,10 +49,14 @@ export default async function Home() {
     >
       <Header {...data} />
 
-      <div className="grid grid-cols-4 gap-4">
-        <Contacts contacts={data.contacts} />
+      <div className="grid lg:grid-cols-4 gap-4 grid-cols-1">
+        <div className="px-10 py-5 col-span-1 bg-zinc-200">
+          <Contacts contacts={data.contacts} />
+          <About about={data.about} />
+          <Skills skills={data.skills} />
+        </div>
 
-        <div className="p-5 col-span-3">
+        <div className="p-5 lg:col-span-3 col-span-1">
           <h2 className="my-8 text-3xl uppercase">Work Experience</h2>
         </div>
       </div>

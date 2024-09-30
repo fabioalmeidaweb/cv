@@ -4,7 +4,7 @@ type ContactsProps = {
 };
 export default function Contacts({ contacts }: ContactsProps) {
   return (
-    <div className="px-10 py-5 col-span-1 bg-zinc-200">
+    <>
       <h2 className="my-8 text-3xl uppercase">Contacts</h2>
       {contacts.map((contact) => (
         <div className="my-5" key={contact.label}>
@@ -12,7 +12,6 @@ export default function Contacts({ contacts }: ContactsProps) {
           <p className="break-words">{contact.value}</p>
         </div>
       ))}
-      <p></p>
-    </div>
+    </>
   );
 }

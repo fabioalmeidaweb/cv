@@ -12,3 +12,22 @@ contacts:
     value: https://github.com/fabioalmeidaweb
   - label: Website
     value: https://fabioalmeidaweb.github.io/cv
+
+about:
+  label: About Me
+  values:
+    - Professional specialist in Drupal, having worked as a developer and Tech Lead, and also in ReactJS.
+    - In Drupal, I have advanced knowledge in module development, themes, and integrations with other systems and APIs, as well as architecture, development standards, performance, and scalability.
+    - In ReactJS, I advanced skills in developing modern web applications, such as Server Side Rendering and Static Site Generation by using frameworks like NextJS and GatsbyJS, using best practices in development and architecture to deliver robust and scalable solutions.
+
+skills:
+  label: Skills
+  values:
+    - label: Drupal
+      value: 5
+    - label: ReactJS
+      value: 5
+    - label: Gatsby
+      value: 3
+    - label: NextJS
+      value: 3
