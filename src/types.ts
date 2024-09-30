@@ -8,3 +8,9 @@ export type CV = {
   position: string;
   location: string;
 };
+
+export type CVProps = {
+  name: string;
+  email: string;
+  contacts: { label: string; value: string }[];
+};
