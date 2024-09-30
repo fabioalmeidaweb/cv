@@ -11,6 +11,6 @@ export type CV = {
 
 export type CVProps = {
   name: string;
-  email: string;
+  position: string;
   contacts: { label: string; value: string }[];
 };
