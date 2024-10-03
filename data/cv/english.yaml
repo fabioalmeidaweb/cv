@@ -31,3 +31,71 @@ skills:
       value: 3
     - label: NextJS
       value: 3
+
+languages:
+  label: Languages
+  values:
+    - label: English
+      value: 4
+    - label: Portuguese
+      value: 5
+
+experience:
+  label: Work Experience
+  values:
+    - company: NTConsult Corp
+      position: Full Stack Developer
+      start: Jun 2024
+      end: Present
+      where: Remote
+      description:
+        - Drupal site building and content management;
+        - Integration between Drupal and GatsbyJS;
+        - React Components development;
+        - Storybook configuration and creation stories for new and legacy components;
+        - API integrations;
+        - Squad leadership;
+      skills:
+        - JavaScript
+        - ReactJS
+        - GatsbyJS
+        - Storybook
+        - CSS
+        - Drupal
+    - company: Hogarth Worldwide
+      position: Drupal Tech Lead
+      start: Jan 2021
+      end: Feb 2023
+      where: Remote
+      description:
+        - Drupal development team leadership;
+        - Periodic meetings for feedback with the team;
+        - Management of hours worked;
+        - Monitoring the board and sprints;
+        - Workshops and training (internal) in the Drupal and Javascript ecosystem;
+        - Management and deployment in Acquia Cloud and Acquia Site Factory;
+        - High-level estimates for unforeseen tasks in Sprints.
+      skills:
+        - Leadership
+        - Acquia Cloud
+        - JavaScript
+        - Drupal
+        - Management
+    - company: Hogarth Worldwide
+      position: Full Stack Developer
+      start: Jan 2016
+      end: Jan 2021
+      where: Porto Alegre, Rio Grande do Sul, Brasil
+      description:
+        - Back end development with PHP (Laravel / Drupal);
+        - Module development for Drupal;
+        - Theme development for Drupal;
+        - Creating and applying Drupal patches;
+        - Creating and maintenance websites React with Drupal (decoupled);
+        - DevOps / Linux infrastructure;
+        - Agile methodologies (Scrum).
+      skills:
+        - SASS
+        - PHP
+        - Drupal
+        - React.js
