@@ -4,7 +4,7 @@ type CoursesProps = {
 };
 export default function Courses({ courses }: CoursesProps) {
   return (
-    <>
+    <section className="break-inside-avoid">
       <h2 className="my-8 text-3xl uppercase border-b border-zinc-800">{courses.label}</h2>
         {courses.values.map((item) => (
           <div className="my-5" key={item.title}>
@@ -13,6 +13,6 @@ export default function Courses({ courses }: CoursesProps) {
             <p className="break-words text-zinc-500">{item.year}</p>
           </div>
         ))}
-    </>
+    </section>
   );
 }

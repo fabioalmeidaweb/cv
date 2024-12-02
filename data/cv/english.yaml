@@ -3,14 +3,19 @@ position: Full Stack Developer / Drupal Specialist
 
 contacts:
   - label: Phone Number
+    type: tel
     value: +55 (51) 98120-2690
   - label: Email
+    type: mailto
     value: fabio.natito@gmail.com
   - label: LinkedIn
+    type: 'url'
     value: https://www.linkedin.com/in/fabioalmeidaweb/
   - label: GitHub
+    type: 'url'
     value: https://github.com/fabioalmeidaweb
   - label: Website
+    type: 'url'
     value: https://fabioalmeidaweb.github.io/cv
 
 about:
@@ -85,7 +90,7 @@ experience:
       position: Full Stack Developer
       start: Jan 2016
       end: Jan 2021
-      where: Porto Alegre, Rio Grande do Sul, Brasil
+      where: Rio Grande do Sul, Brasil
       description:
         - Back end development with PHP (Laravel / Drupal);
         - Module development for Drupal;
@@ -99,7 +104,20 @@ experience:
         - PHP
         - Drupal
         - React.js
-
+    - company: Encode Web
+      position: Full Stack Developer
+      start: Sep 2015
+      end: Dec 2015
+      where: Rio Grande do Sul, Brasil
+      description:
+        - Back-end development with PHP (Laravel / Wordpress);
+        - DevOps / Linux Infrastructure;
+        - Agile methodologies (Scrum);
+      skills:
+        - SASS
+        - PHP
+        - WordPress
+        - Web Applications
 education:
   label: Education
   values:

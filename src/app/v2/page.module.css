@@ -1,1 +1,5 @@
-@page { margin:0; padding: 0; }
+@page {
+  margin-block: 2rem;
+  margin-inline: 0rem 1rem;
+  padding: 0;
+}

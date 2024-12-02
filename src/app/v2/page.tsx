@@ -1,5 +1,5 @@
 import { CVProps } from '@/types';
-import fs from 'fs';
+import fs from 'node:fs';
 import yaml from 'js-yaml';
 import { Roboto } from 'next/font/google';
 
@@ -51,19 +51,19 @@ export default async function Home() {
 
   return (
     <div
-      className={`${font.className} container print:w-[120%] print:m-3 print:max-w-full mt-3`}
+      className={`${font.className} my-3 container print:w-[120%] print:m-0 print:max-w-full`}
     >
       <Header {...data} />
 
-      <div className="grid lg:grid-cols-4 gap-4 grid-cols-1">
-        <div className="px-10 py-5 col-span-1 bg-zinc-200">
+      <div className="grid lg:grid-cols-4 lg:gap-4 grid-cols-1 print:grid-cols-3 print:gap-2 ">
+        <div className="px-10 py-5 col-span-1 bg-zinc-200 print:bg-white print:border-r border-zinc-800 print:py-0">
           <Contacts contacts={data.contacts} />
           <Skills skills={data.skills} />
-          <About about={data.about} />
           <Languages languages={data.languages} />
         </div>
 
-        <div className="p-5 lg:col-span-3 col-span-1">
+        <div className="p-5 lg:col-span-3 col-span-1 print:col-span-2 print:py-0">
+          <About about={data.about} />
           <Experience experience={data.experience} />
           <Education education={data.education} />
           <Courses courses={data.courses} />
