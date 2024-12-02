@@ -6,7 +6,7 @@ export default function Education({ education }: EducationProps) {
   return (
     <section className="break-inside-avoid">
       <h2 className="my-8 text-3xl uppercase border-b border-zinc-800">{education.label}</h2>
-      <div className="grid grid-cols-2 gap-5">
+      <div className="grid lg:grid-cols-2 lg:gap-5">
         {education.values.map((item) => (
           <div className="my-1 mb-5" key={item.title}>
             <h3 className="text-lg font-semibold pb-1">{item.title}</h3>

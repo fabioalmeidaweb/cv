@@ -51,12 +51,12 @@ export default async function Home() {
 
   return (
     <div
-      className={`${font.className} my-3 container print:w-[120%] print:m-0 print:max-w-full`}
+      className={`${font.className} mb-3 container print:w-[120%] print:m-0 print:max-w-full`}
     >
       <Header {...data} />
 
       <div className="grid lg:grid-cols-4 lg:gap-4 grid-cols-1 print:grid-cols-3 print:gap-2 ">
-        <div className="px-10 py-5 col-span-1 bg-zinc-200 print:bg-white print:border-r border-zinc-800 print:py-0">
+        <div className="px-5 py-5 col-span-1 bg-zinc-200 lg:px-10 print:bg-white print:border-r border-zinc-800 print:py-0">
           <Contacts contacts={data.contacts} />
           <Skills skills={data.skills} />
           <Languages languages={data.languages} />
