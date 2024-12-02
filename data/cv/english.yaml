@@ -99,3 +99,13 @@ experience:
         - PHP
         - Drupal
         - React.js
+
+education:
+  label: Education
+  values:
+    - title: Técnico em Informática, Tecnologia da Informação
+      local: Dom João Becker
+      year: 2013 - 2014
+    - title: Bachelor of Geography
+      local: Dom João Becker
+      year: 2006 - 2010

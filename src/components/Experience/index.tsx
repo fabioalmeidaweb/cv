@@ -6,7 +6,7 @@ type WorkExperienceProps = {
 export default function Experience({ experience }: WorkExperienceProps) {
   return (
     <section>
-      <h2 className="my-8 text-3xl uppercase">{experience.label}</h2>
+      <h2 className="my-8 text-3xl uppercase border-b border-zinc-800">{experience.label}</h2>
 
       {experience.values.map((skill, index) => (
         <div className="grid grid-cols-4 my-8" key={index}>

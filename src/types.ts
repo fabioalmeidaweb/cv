@@ -28,4 +28,12 @@ export type CVProps = {
       skills: string[];
     }[];
   };
+  education: {
+    label: string;
+    values: {
+      title: string;
+      local: string;
+      year: string;
+    }[]
+  }
 };

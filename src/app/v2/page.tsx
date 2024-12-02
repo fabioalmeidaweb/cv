@@ -11,6 +11,7 @@ import Languages from '@/components/Languages';
 import Skills from '@/components/Skills';
 
 import './page.module.css';
+import Education from '@/components/Education';
 
 const font = Roboto({ subsets: ['latin'], weight: '400' });
 
@@ -63,6 +64,7 @@ export default async function Home() {
 
         <div className="p-5 lg:col-span-3 col-span-1">
           <Experience experience={data.experience} />
+          <Education education={data.education} />
         </div>
       </div>
     </div>
