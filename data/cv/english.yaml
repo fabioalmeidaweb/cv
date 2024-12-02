@@ -104,8 +104,27 @@ education:
   label: Education
   values:
     - title: Técnico em Informática, Tecnologia da Informação
-      local: Dom João Becker
+      where: Dom João Becker
       year: 2013 - 2014
     - title: Bachelor of Geography
-      local: Dom João Becker
+      where: Dom João Becker
       year: 2006 - 2010
+
+courses:
+  label: Courses and Trainings
+  values:
+    - title: Management Foundations
+      where: LinkedIn Learning
+      year: May 2022
+    - title: "React: State Management"
+      where: LinkedIn Learning
+      year: Feb 2020
+    - title: TypeScript for Node.js Developers
+      where: LinkedIn Learning
+      year: Jan 2020
+    - title: Become a MERN Stack JavaScript Developer
+      where: LinkedIn Learning
+      year: Nov 2019
+    - title: Acquia Certified Site Builder - Drupal 8
+      where: Acquia Certification Program
+      year: Oct 2018

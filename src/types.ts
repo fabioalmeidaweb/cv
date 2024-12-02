@@ -32,7 +32,15 @@ export type CVProps = {
     label: string;
     values: {
       title: string;
-      local: string;
+      where: string;
+      year: string;
+    }[]
+  }
+  courses: {
+    label: string;
+    values: {
+      title: string;
+      where: string;
       year: string;
     }[]
   }
