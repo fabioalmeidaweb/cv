@@ -32,10 +32,7 @@ function getData(): CVProps | null {
 
 export const metadata = {
   title: 'Fabio Almeida | Resume',
-  description: "English version of Fabio Almeida's Curriculum.",
-  icons: {
-    icon: '/favicon.ico'
-  }
+  description: "English version of Fabio Almeida's Curriculum."
 };
 
 export default async function Home() {
