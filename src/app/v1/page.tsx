@@ -2,7 +2,7 @@ import { Roboto } from "next/font/google";
 import "./page.module.css";
 import yaml from "js-yaml";
 import fs from "fs";
-import { CV } from "@/types";
+import { CV } from "./types";
 
 const font = Roboto({ subsets: ["latin"], weight: "400" });
 
