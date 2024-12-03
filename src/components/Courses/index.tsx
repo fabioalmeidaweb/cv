@@ -1,6 +1,6 @@
-import { CV, CVProps } from "@/types";
+import { CoursesType } from "@/types";
 type CoursesProps = {
-  courses: CVProps["courses"];
+  courses: CoursesType;
 };
 export default function Courses({ courses }: CoursesProps) {
   return (

@@ -1,7 +1,7 @@
-import { CVProps } from '@/types';
+import { LanguagesType } from '@/types';
 
 type LanguagesProps = {
-  languages: CVProps['languages'];
+  languages: LanguagesType;
 };
 export default function Languages({ languages }: LanguagesProps) {
   return (

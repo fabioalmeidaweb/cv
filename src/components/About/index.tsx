@@ -1,6 +1,6 @@
-import { CVProps } from "@/types";
+import { AboutType } from "@/types";
 type AboutProps = {
-  about: CVProps["about"];
+  about: AboutType;
 };
 export default function About({ about }: AboutProps) {
   return (

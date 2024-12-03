@@ -1,7 +1,7 @@
-import { CV, CVProps } from "@/types";
+import { ContactsType } from "@/types";
 
 type ContactsProps = {
-  contacts: CVProps["contacts"];
+  contacts: ContactsType;
 };
 
 export default function Contacts({ contacts }: ContactsProps) {

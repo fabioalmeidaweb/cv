@@ -1,7 +1,7 @@
-import { CVProps } from '@/types';
+import { ExperienceType } from '@/types';
 
 type WorkExperienceProps = {
-  experience: CVProps['experience'];
+  experience: ExperienceType;
 };
 export default function Experience({ experience }: WorkExperienceProps) {
   return (
