@@ -28,22 +28,27 @@ about:
 skills:
   label: Skills
   values:
-    - label: Drupal
-      value: 5
-    - label: ReactJS
-      value: 5
-    - label: Gatsby
-      value: 3
-    - label: NextJS
-      value: 3
+    - label: PHP
+      values:
+      - label: Drupal
+      - label: Laravel
+      - label: Symfony
+    - label: JavaScript / TypeScript
+      values:
+      - label: ReactJS
+      - label: NextJS
+      - label: GatsbyJS
+    - label: CSS
+      values:
+      - label: SASS
+      - label: CSS Modules
+
 
 languages:
   label: Languages
   values:
     - label: English
-      value: 4
-    - label: Portuguese
-      value: 5
+    - label: Portuguese (Native)
 
 experience:
   label: Work Experience

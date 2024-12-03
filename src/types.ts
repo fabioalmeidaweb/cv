@@ -9,13 +9,23 @@ export type CV = {
   location: string;
 };
 
+export type SkillsType = {
+  label: string;
+  values: {
+    label: string;
+    values: {
+      label: string;
+    }[];
+  }[];
+};
+
 export type CVProps = {
   name: string;
   position: string;
   contacts: { label: string; type: string; value: string }[];
   about: { label: string; values: string[] };
-  skills: { label: string; values: { label: string; value: number }[] };
-  languages: { label: string; values: { label: string; value: number }[] };
+  skills: SkillsType;
+  languages: { label: string; values: { label: string; }[] };
   experience: {
     label: string;
     values: {
