@@ -31,12 +31,15 @@ skills:
     - label: PHP
       values:
       - label: Drupal
+      - label: Twig
       - label: Laravel
       - label: Symfony
     - label: JavaScript / TypeScript
       values:
       - label: ReactJS
       - label: Redux / Redux Toolkit
+      - label: Redux Saga
+      - label: Storybook
       - label: NextJS
       - label: GatsbyJS
     - label: CSS
