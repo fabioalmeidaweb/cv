@@ -36,13 +36,15 @@ skills:
     - label: JavaScript / TypeScript
       values:
       - label: ReactJS
+      - label: Redux / Redux Toolkit
       - label: NextJS
       - label: GatsbyJS
     - label: CSS
       values:
       - label: SASS
       - label: CSS Modules
-
+      - label: CSS-in-JS
+      - label: TailwindCSS
 
 languages:
   label: Languages
