@@ -21,33 +21,33 @@ contacts:
 about:
   label: About Me
   values:
-    - Professional specialist in Drupal, having worked as a developer and Tech Lead, and also in ReactJS.
-    - In Drupal, I have advanced knowledge in module development, themes, and integrations with other systems and APIs, as well as architecture, development standards, performance, and scalability.
-    - In ReactJS, I advanced skills in developing modern web applications, such as Server Side Rendering and Static Site Generation by using frameworks like NextJS and GatsbyJS, using best practices in development and architecture to deliver robust and scalable solutions.
+    - I am a professional Drupal specialist with extensive experience as a developer and Tech Lead. My expertise includes advanced knowledge in module development, theme creation, and integrations with other systems and APIs. I am highly skilled in Drupal architecture, development standards, performance optimization, and scalability, ensuring robust and maintainable solutions.
+    - In addition to my Drupal expertise, I have advanced skills in ReactJS, focusing on modern web application development. This includes Server-Side Rendering (SSR) and Static Site Generation (SSG) using frameworks like Next.js and Gatsby.js. I apply best practices in development and architecture to deliver scalable and high-performance solutions.
+    - With a strong foundation in both Drupal and ReactJS, I specialize in delivering full-stack solutions tailored to client needs, ensuring quality, maintainability, and scalability in every project.
 
 skills:
   label: Skills
   values:
     - label: PHP
       values:
-      - label: Drupal
-      - label: Twig
-      - label: Laravel
-      - label: Symfony
+        - label: Drupal
+        - label: Twig
+        - label: Laravel
+        - label: Symfony
     - label: JavaScript / TypeScript
       values:
-      - label: ReactJS
-      - label: Redux / Redux Toolkit
-      - label: Redux Saga
-      - label: Storybook
-      - label: NextJS
-      - label: GatsbyJS
+        - label: ReactJS
+        - label: Redux / Redux Toolkit
+        - label: Redux Saga
+        - label: Storybook
+        - label: NextJS
+        - label: GatsbyJS
     - label: CSS
       values:
-      - label: SASS
-      - label: CSS Modules
-      - label: CSS-in-JS
-      - label: TailwindCSS
+        - label: SASS
+        - label: CSS Modules
+        - label: CSS-in-JS
+        - label: TailwindCSS
 
 languages:
   label: Languages
@@ -144,7 +144,7 @@ courses:
     - title: Management Foundations
       where: LinkedIn Learning
       year: May 2022
-    - title: "React: State Management"
+    - title: 'React: State Management'
       where: LinkedIn Learning
       year: Feb 2020
     - title: TypeScript for Node.js Developers
