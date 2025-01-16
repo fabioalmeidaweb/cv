@@ -28,10 +28,22 @@ function getData(slug: string): CVProps | null {
   return null;
 }
 
-export const metadata = {
-  title: 'Fabio Almeida | Resume',
-  description: "English version of Fabio Almeida's Curriculum."
-};
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const slug = (await params).slug;
+  const data = getData(slug);
+
+  if (!data) {
+    return {
+      title: 'Fabio Almeida | Resume',
+      description: "English version of Fabio Almeida's Curriculum."
+    };
+  }
+
+  return {
+    title: `${data.name} | ${data.position}`,
+    description: `English version of ${data.name}'s Curriculum.`
+  };
+}
 
 export async function generateStaticParams() {
   return [{ slug: 'drupal' }, { slug: 'front-end' }];
