@@ -1,4 +1,5 @@
-import { SkillsType } from "@/types";
+import { SkillsType } from '@/types';
+
 type SkillsProps = {
   skills: SkillsType;
 };
@@ -12,7 +13,7 @@ export default function Skills({ skills }: SkillsProps) {
             {skill.label}
             <ul className="list-disc ml-5">
               {skill.values.map((subSkill, index) => (
-                <li className="my-2" key={index}>
+                <li className="my-1" key={index}>
                   {subSkill.label}
                 </li>
               ))}

@@ -1,0 +1,142 @@
+name: Fabio Almeida
+position: Front-End Developer
+
+contacts:
+  - label: Phone Number
+    type: tel
+    value: +55 (51) 98120-2690
+  - label: Email
+    type: mailto
+    value: fabio.natito@gmail.com
+  - label: LinkedIn
+    type: 'url'
+    value: https://www.linkedin.com/in/fabioalmeidaweb/
+  - label: GitHub
+    type: 'url'
+    value: https://github.com/fabioalmeidaweb
+  - label: Website
+    type: 'url'
+    value: https://fabioalmeidaweb.github.io/cv/front-end
+
+about:
+  label: About Me
+  values:
+    - Full stack developer with over 9 years of experience, specializing in React, Redux, and Redux-Saga. A seasoned professional with deep expertise in modern web development frameworks, focusing on building scalable and maintainable solutions. Extensive experience in ReactJS, leveraging state management through Redux and Redux-Saga to create seamless, high-performing applications. Proficient in Server-Side Rendering (SSR) and Static Site Generation (SSG) techniques with Next.js and GatsbyJS for enhanced performance and user experience.
+    - In addition to front-end expertise, skilled in Drupal, including advanced module and theme development, system and API integrations, and performance optimization. Proven ability as both a developer and Tech Lead to apply best practices in development and architecture, ensuring robust, scalable, and efficient systems.
+
+skills:
+  label: Skills
+  values:
+    - label: JavaScript / TypeScript
+      values:
+        - label: ReactJS
+        - label: Redux / Redux Toolkit
+        - label: Redux Saga
+        - label: Storybook
+        - label: NextJS
+        - label: GatsbyJS
+        - label: NodeJS
+    - label: CSS
+      values:
+        - label: SASS
+        - label: CSS Modules
+        - label: CSS-in-JS
+        - label: TailwindCSS
+    - label: PHP
+      values:
+        - label: Drupal
+        - label: Twig
+        - label: Laravel
+        - label: Symfony
+
+languages:
+  label: Languages
+  values:
+    - label: English
+    - label: Portuguese (Native)
+
+experience:
+  label: Work Experience
+  values:
+    - company: NTConsult Corp
+      position: Full Stack Developer
+      start: Jun 2023
+      end: Present
+      where: Remote
+      description:
+        - Experienced in building modern web applications with React, Redux, and Redux-Saga, focusing on state management and asynchronous data handling. Experienced in developing reusable React components and configuring Storybook for component visualization and testing. Integrated Drupal with GatsbyJS to build dynamic, high-performance websites. Proficient in API integrations, ensuring seamless communication between systems. Actively led development teams, emphasizing best practices and high-quality project delivery.
+      skills:
+        - JavaScript
+        - ReactJS
+        - GatsbyJS
+        - Storybook
+        - CSS
+        - Drupal
+    - company: Hogarth Worldwide
+      position: Drupal Tech Lead
+      start: Jan 2021
+      end: Feb 2023
+      where: Remote
+      description:
+        - Experienced in leading Drupal development teams, conducting regular feedback meetings with the team, and managing work hours. Proficient in monitoring boards and sprints, as well as organizing internal workshops and training sessions focused on the Drupal and JavaScript ecosystems. Skilled in managing and deploying projects on Acquia Cloud and Acquia Site Factory, with expertise in providing high-level estimates for tasks not planned in sprints.
+      skills:
+        - Leadership
+        - Acquia Cloud
+        - JavaScript
+        - Drupal
+        - Management
+    - company: Hogarth Worldwide
+      position: Full Stack Developer
+      start: Jan 2016
+      end: Jan 2021
+      where: Rio Grande do Sul, Brasil
+      description:
+        - Back-end development using PHP (Laravel/Drupal), with expertise in developing Drupal modules, creating and customizing Drupal templates, and creating and applying Drupal patch fixes. Skilled in integrating third-party service APIs and developing and maintaining React/Drupal decoupled websites. Proficient in DevOps and Linux infrastructure, with a strong understanding of agile methodologies, particularly Scrum, for efficient project delivery.
+      skills:
+        - SASS
+        - PHP
+        - Drupal
+        - React.js
+    - company: Encode Web
+      position: Full Stack Developer
+      start: Sep 2015
+      end: Dec 2015
+      where: Rio Grande do Sul, Brasil
+      description:
+        - Back-end development using PHP (Laravel/Drupal), with expertise in developing Drupal modules, creating and customizing Drupal templates, and creating and applying Drupal patch fixes. Skilled in integrating third-party service APIs and developing and maintaining React/Drupal decoupled websites. Proficient in DevOps and Linux infrastructure, with a strong understanding of agile methodologies, particularly Scrum, for efficient project delivery.
+      skills:
+        - SASS
+        - PHP
+        - WordPress
+        - Web Applications
+education:
+  label: Education
+  values:
+    - title: Técnico em Informática, Tecnologia da Informação
+      where: Dom João Becker
+      year: 2013 - 2014
+    - title: Bachelor of Geography
+      where: PUC-SP
+      year: 2006 - 2010
+
+courses:
+  label: Courses and Trainings
+  values:
+    - title: Modern React with Redux [2024 Update]
+      where: Udemy
+      year: Dec 2024
+    - title: Management Foundations
+      where: LinkedIn Learning
+      year: May 2022
+    - title: 'React: State Management'
+      where: LinkedIn Learning
+      year: Feb 2020
+    - title: TypeScript for Node.js Developers
+      where: LinkedIn Learning
+      year: Jan 2020
+    - title: Become a MERN Stack JavaScript Developer
+      where: LinkedIn Learning
+      year: Nov 2019
+    - title: Acquia Certified Site Builder - Drupal 8
+      where: Acquia Certification Program
+      year: Oct 2018

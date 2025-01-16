@@ -1,5 +1,5 @@
 name: Fabio Almeida
-position: Full Stack Developer / Drupal Specialist
+position: Drupal Specialist
 
 contacts:
   - label: Phone Number
@@ -21,9 +21,8 @@ contacts:
 about:
   label: About Me
   values:
-    - I am a professional Drupal specialist with extensive experience as a developer and Tech Lead. My expertise includes advanced knowledge in module development, theme creation, and integrations with other systems and APIs. I am highly skilled in Drupal architecture, development standards, performance optimization, and scalability, ensuring robust and maintainable solutions.
-    - In addition to my Drupal expertise, I have advanced skills in ReactJS, focusing on modern web application development. This includes Server-Side Rendering (SSR) and Static Site Generation (SSG) using frameworks like Next.js and Gatsby.js. I apply best practices in development and architecture to deliver scalable and high-performance solutions.
-    - With a strong foundation in both Drupal and ReactJS, I specialize in delivering full-stack solutions tailored to client needs, ensuring quality, maintainability, and scalability in every project.
+    - Full stack developer with over 9 years of experience, specializing in Drupal development and integrations. A seasoned professional with extensive expertise in building and optimizing Drupal-based solutions, focusing on advanced module and theme development, system integrations, and performance enhancement. Adept at creating scalable, maintainable systems and applying best practices in web architecture. Skilled in combining Drupal with modern frameworks like GatsbyJS for dynamic and high-performing web applications.
+    - In addition to Drupal expertise, experienced in modern front-end technologies such as React, Redux, and Redux-Saga, leveraging these tools for robust state management and high-quality user experiences. Proficient in Server-Side Rendering (SSR) and Static Site Generation (SSG) techniques with Next.js.
 
 skills:
   label: Skills
@@ -60,16 +59,11 @@ experience:
   values:
     - company: NTConsult Corp
       position: Full Stack Developer
-      start: Jun 2024
+      start: Jun 2023
       end: Present
       where: Remote
       description:
-        - Drupal site building and content management;
-        - Integration between Drupal and GatsbyJS;
-        - React Components development;
-        - Storybook configuration and creation stories for new and legacy components;
-        - API integrations;
-        - Squad leadership;
+        - Specialized in building and managing Drupal-based websites, with a focus on advanced module development and seamless API integrations. Integrated Drupal with GatsbyJS to create high-performance, dynamic web solutions. Configured and maintained Storybook for showcasing and testing React components. Leveraged Redux and Redux-Saga to implement effective state management solutions for React applications. Led development teams to deliver efficient and scalable projects while ensuring adherence to best practices in both Drupal and front-end development.
       skills:
         - JavaScript
         - ReactJS
@@ -83,13 +77,7 @@ experience:
       end: Feb 2023
       where: Remote
       description:
-        - Drupal development team leadership;
-        - Periodic meetings for feedback with the team;
-        - Management of hours worked;
-        - Monitoring the board and sprints;
-        - Workshops and training (internal) in the Drupal and Javascript ecosystem;
-        - Management and deployment in Acquia Cloud and Acquia Site Factory;
-        - High-level estimates for unforeseen tasks in Sprints.
+        - Back-end development using PHP (Laravel/Drupal), with expertise in developing Drupal modules, creating and customizing Drupal templates, and creating and applying Drupal patch fixes. Skilled in integrating third-party service APIs and developing and maintaining React/Drupal decoupled websites. Proficient in DevOps and Linux infrastructure, with a strong understanding of agile methodologies, particularly Scrum, for efficient project delivery.
       skills:
         - Leadership
         - Acquia Cloud
@@ -102,13 +90,7 @@ experience:
       end: Jan 2021
       where: Rio Grande do Sul, Brasil
       description:
-        - Back end development with PHP (Laravel / Drupal);
-        - Module development for Drupal;
-        - Theme development for Drupal;
-        - Creating and applying Drupal patches;
-        - Creating and maintenance websites React with Drupal (decoupled);
-        - DevOps / Linux infrastructure;
-        - Agile methodologies (Scrum).
+        - Back-end development using PHP (Laravel/Drupal), with expertise in developing Drupal modules, creating and customizing Drupal templates, and creating and applying Drupal patch fixes. Skilled in integrating third-party service APIs and developing and maintaining React/Drupal decoupled websites. Proficient in DevOps and Linux infrastructure, with a strong understanding of agile methodologies, particularly Scrum, for efficient project delivery.
       skills:
         - SASS
         - PHP
@@ -120,9 +102,7 @@ experience:
       end: Dec 2015
       where: Rio Grande do Sul, Brasil
       description:
-        - Back-end development with PHP (Laravel / Wordpress);
-        - DevOps / Linux Infrastructure;
-        - Agile methodologies (Scrum);
+        - Back-end development using PHP (Laravel/WordPress), with expertise in DevOps and Linux infrastructure. Familiar with agile methodologies, particularly Scrum, to ensure efficient and collaborative project management.
       skills:
         - SASS
         - PHP
@@ -135,7 +115,7 @@ education:
       where: Dom João Becker
       year: 2013 - 2014
     - title: Bachelor of Geography
-      where: Dom João Becker
+      where: PUC-SP
       year: 2006 - 2010
 
 courses:
