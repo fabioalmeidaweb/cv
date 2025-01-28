@@ -125,6 +125,10 @@ courses:
     - title: Modern React with Redux [2024 Update]
       where: Udemy
       year: Dec 2024
+    - title: Understanding TypeScript
+      where: Udemy
+      year: Jan 2024
+      link: https://www.udemy.com/certificate/UC-ba8012a4-1a6c-43ce-a9aa-0d274e06e439/
     - title: Management Foundations
       where: LinkedIn Learning
       year: May 2022
