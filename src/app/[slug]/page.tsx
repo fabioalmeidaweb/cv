@@ -1,7 +1,9 @@
-import { CVProps } from '@/types';
+import fs from 'node:fs';
+
 import yaml from 'js-yaml';
 import { Roboto } from 'next/font/google';
-import fs from 'node:fs';
+
+import { CVProps } from '@/types';
 
 import About from '@/components/About';
 import Contacts from '@/components/Contacts';

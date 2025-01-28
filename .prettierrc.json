@@ -5,7 +5,9 @@
   "trailingComma": "none",
   "printWidth": 100,
   "importOrder": [
+    "node:(.*)$",
     "<THIRD_PARTY_MODULES>",
+    "@/types",
     "@/types/(.*)$",
     "@/components/(.*)$",
     "^[./]"
