@@ -23,10 +23,11 @@ export default function Experience({ experience }: WorkExperienceProps) {
 
           <div className="md:col-span-3 print:col-span-3">
             <h4 className="pb-2 text-2xl print:text-lg print:font-semibold">{skill.position}</h4>
-
-            {skill.description.map((description, index) => (
-              <p key={index}>{description}</p>
-            ))}
+            <ul className="list-disc ml-5">
+              {skill.description.map((description, index) => (
+                <li key={index}>{description}</li>
+              ))}
+            </ul>
           </div>
         </div>
       ))}

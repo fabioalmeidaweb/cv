@@ -11,22 +11,26 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const isLocalhost = process.env.NODE_ENV === 'development';
+  console.log(isLocalhost);
   return (
     <html lang="en" className="print:text-[14px]">
-      <head>
-        <Script
-          strategy="afterInteractive"
-          src={`https://www.googletagmanager.com/gtag/js?id=-M04VNLM5F1`}
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
+      {!isLocalhost && (
+        <head>
+          <Script
+            strategy="afterInteractive"
+            src={`https://www.googletagmanager.com/gtag/js?id=-M04VNLM5F1`}
+          />
+          <Script id="google-analytics" strategy="afterInteractive">
+            {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-M04VNLM5F1');
           `}
-        </Script>
-      </head>
+          </Script>
+        </head>
+      )}
       <body className="print:leading-snug">{children}</body>
     </html>
   );
