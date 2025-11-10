@@ -1,5 +1,5 @@
 name: Fabio Almeida
-position: Front-End Developer
+position: Full Stack Engineer
 
 contacts:
   - label: Phone Number
@@ -21,39 +21,44 @@ contacts:
 about:
   label: About Me
   values:
-    - Full stack developer with over 9 years of experience, specializing in React, Redux, and Redux-Saga. A seasoned professional with deep expertise in modern web development frameworks, focusing on building scalable and maintainable solutions. Extensive experience in ReactJS, leveraging state management through Redux and Redux-Saga to create seamless, high-performing applications. Proficient in Server-Side Rendering (SSR) and Static Site Generation (SSG) techniques with Next.js and GatsbyJS for enhanced performance and user experience.
+    - Full stack engineer with over 11 years of experience, specializing in React, Redux, and Redux-Saga. A seasoned professional with deep expertise in modern web development frameworks, focusing on building scalable and maintainable solutions. Extensive experience in ReactJS, leveraging state management through Redux and Redux-Saga to create seamless, high-performing applications. Proficient in Server-Side Rendering (SSR) and Static Site Generation (SSG) techniques with Next.js and GatsbyJS for enhanced performance and user experience.
     - In addition to front-end expertise, skilled in Drupal, including advanced module and theme development, system and API integrations, and performance optimization. Proven ability as both a developer and Tech Lead to apply best practices in development and architecture, ensuring robust, scalable, and efficient systems.
 
 skills:
   label: Skills
   values:
-    - label: JavaScript / TypeScript
+    - label: Programming Language
       values:
-        - label: ReactJS
-        - label: Redux / Redux Toolkit
-        - label: Redux Saga
-        - label: Storybook
+        - label: TypeScript
+        - label: JavaScript
+        - label: Golang
+        - label: PHP
+    - label: Frameworks & Tools
+      values:
+        - label: Vite
         - label: NextJS
         - label: GatsbyJS
+        - label: Storybook
         - label: NodeJS
-    - label: CSS
+        - label: NestJS
+        - label: Drupal CMS
+    - label: Libraries
+      values:
+        - label: ReactJS
+        - label: Redux
+        - label: Zustand
+        - label: TanSack Query
+    - label: Styling
       values:
         - label: SASS
+        - label: TailwindCSS
+        - label: Shadcn/UI
         - label: CSS Modules
         - label: CSS-in-JS
-        - label: TailwindCSS
-    - label: PHP
+    - label: Languages
       values:
-        - label: Drupal
-        - label: Twig
-        - label: Laravel
-        - label: Symfony
-
-languages:
-  label: Languages
-  values:
-    - label: English
-    - label: Portuguese (Native)
+        - label: English
+        - label: Portuguese
 
 experience:
   label: Work Experience
@@ -64,13 +69,21 @@ experience:
       end: Present
       where: Remote
       description:
-        - Experienced in building modern web applications with React, Redux, and Redux-Saga, focusing on state management and asynchronous data handling. Experienced in developing reusable React components and configuring Storybook for component visualization and testing. Integrated Drupal with GatsbyJS to build dynamic, high-performance websites. Proficient in API integrations, ensuring seamless communication between systems. Actively led development teams, emphasizing best practices and high-quality project delivery.
+        - Implemented the front-end of an ETL monitoring dashboard with Vite and React, focusing on component-driven UI using shadcn primitives and Tailwind for accessible, responsive layouts
+        - Created interactive time-series charts with Recharts (tooltips, zoom/pan) and optimized presentation with lazy loading, memoization, and clear loading/error states
+        - Built modern web applications with React, Redux, and Redux-Saga for state management and asynchronous data handling
+        - Integrated Drupal with GatsbyJS to build dynamic, high-performance websites
+        - Led development teams emphasizing best practices and high-quality project delivery
       skills:
         - JavaScript
         - ReactJS
         - GatsbyJS
+        - NestJS
+        - Redux
+        - Zustand
+        - TanStack Query
         - Storybook
-        - CSS
+        - TailwindCSS
         - Drupal
     - company: Hogarth Worldwide
       position: Drupal Tech Lead
@@ -78,20 +91,32 @@ experience:
       end: Feb 2023
       where: Remote
       description:
-        - Experienced in leading Drupal development teams, conducting regular feedback meetings with the team, and managing work hours. Proficient in monitoring boards and sprints, as well as organizing internal workshops and training sessions focused on the Drupal and JavaScript ecosystems. Skilled in managing and deploying projects on Acquia Cloud and Acquia Site Factory, with expertise in providing high-level estimates for tasks not planned in sprints.
+        - Led a global team of 6+ Drupal developers, conducting regular feedback meetings and managing work hours
+        - Monitored boards and sprints to ensure project delivery and team efficiency
+        - Led analysis and guided the team to improve Core Web Vitals, achieving 90+ scores on Performance, Accessibility, and SEO
+        - Led accessibility analysis and directed the team to implement ADA/WCAG 2.1 AA compliance across 10+ client websites
+        - Managed and deployed 20+ multisite projects on Acquia Cloud and Acquia Site Factory
+        - Provided high-level estimates for tasks not planned in sprints
       skills:
         - Leadership
         - Acquia Cloud
         - JavaScript
         - Drupal
         - Management
+        - Web Vitals
+        - Accessibility (ADA)
     - company: Hogarth Worldwide
       position: Full Stack Developer
       start: Jan 2016
       end: Jan 2021
       where: Rio Grande do Sul, Brasil
       description:
-        - Back-end development using PHP (Laravel/Drupal), with expertise in developing Drupal modules, creating and customizing Drupal templates, and creating and applying Drupal patch fixes. Skilled in integrating third-party service APIs and developing and maintaining React/Drupal decoupled websites. Proficient in DevOps and Linux infrastructure, with a strong understanding of agile methodologies, particularly Scrum, for efficient project delivery.
+        - Developed back-end solutions using PHP (Laravel/Drupal)
+        - Created Drupal modules, customized templates, and applied patch fixes
+        - Integrated third-party service APIs for enhanced functionality
+        - Developed and maintained React/Drupal decoupled websites
+        - Managed DevOps and Linux infrastructure
+        - Applied agile methodologies, particularly Scrum, for efficient project delivery
       skills:
         - SASS
         - PHP
@@ -103,7 +128,9 @@ experience:
       end: Dec 2015
       where: Rio Grande do Sul, Brasil
       description:
-        - Back-end development using PHP (Laravel/WordPress), with expertise in DevOps and Linux infrastructure. Familiar with agile methodologies, particularly Scrum, to ensure efficient and collaborative project management.
+        - Developed back-end solutions using PHP (Laravel/WordPress)
+        - Managed DevOps and Linux infrastructure
+        - Applied agile methodologies, particularly Scrum, for efficient project management
       skills:
         - SASS
         - PHP
