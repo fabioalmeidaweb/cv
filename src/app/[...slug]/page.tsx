@@ -29,8 +29,9 @@ function getData(slug: string): ResumeData | null {
   return null;
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
-  const slug = (await params).slug;
+export async function generateMetadata({ params }: { params: Promise<{ slug: string | string[] }> }) {
+  const rawSlug = (await params).slug;
+  const slug = Array.isArray(rawSlug) ? rawSlug[0] : rawSlug;
   const data = getData(slug);
 
   if (!data) {
@@ -47,11 +48,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 }
 
 export async function generateStaticParams() {
-  return [{ slug: 'drupal' }, { slug: 'front-end' }];
+  return [{ slug: ['drupal'] }, { slug: ['front-end'] }];
 }
 
-export default async function Home({ params }: { params: Promise<{ slug: string }> }) {
-  const slug = (await params).slug;
+export default async function Home({ params }: { params: Promise<{ slug: string | string[] }> }) {
+  const rawSlug = (await params).slug;
+  const slug = Array.isArray(rawSlug) ? rawSlug[0] : rawSlug;
   const data = getData(slug);
 
   if (!data) {
