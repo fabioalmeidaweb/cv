@@ -46,7 +46,7 @@ export function ExperienceSection({ data }: ExperienceSectionProps) {
               {experience.skills.map((skill, skillIndex) => (
                 <span
                   key={skillIndex}
-                  className="px-2 py-0.5 bg-gray-100 text-gray-700 rounded text-xs font-medium"
+                  className="px-2 py-0.5 bg-gray-100 text-gray-700 rounded-sm text-xs font-medium"
                 >
                   {skill}
                 </span>
