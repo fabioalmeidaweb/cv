@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 
+import { getResumeSlugs } from '@/config/resumes';
 import yaml from 'js-yaml';
 import { Roboto } from 'next/font/google';
 
@@ -29,7 +30,11 @@ function getData(slug: string): ResumeData | null {
   return null;
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string | string[] }> }) {
+export async function generateMetadata({
+  params
+}: {
+  params: Promise<{ slug: string | string[] }>;
+}) {
   const rawSlug = (await params).slug;
   const slug = Array.isArray(rawSlug) ? rawSlug[0] : rawSlug;
   const data = getData(slug);
@@ -48,7 +53,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 }
 
 export async function generateStaticParams() {
-  return [{ slug: ['drupal'] }, { slug: ['front-end'] }];
+  return getResumeSlugs().map((s) => ({ slug: s.split('/') }));
 }
 
 export default async function Home({ params }: { params: Promise<{ slug: string | string[] }> }) {
