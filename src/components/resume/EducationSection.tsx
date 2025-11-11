@@ -1,13 +1,14 @@
-import { GraduationCap, Calendar } from 'lucide-react'
-import type { EducationSection } from '@/types/resume'
+import { Calendar, GraduationCap } from 'lucide-react';
+
+import type { EducationSection } from '@/types/resume';
 
 interface EducationSectionProps {
-  data: EducationSection
+  data: EducationSection;
 }
 
 export function EducationSection({ data }: EducationSectionProps) {
   return (
-    <section className="mb-5">
+    <section className="mb-5 break-inside-avoid">
       <h2 className="text-lg font-bold text-gray-800 mb-2.5 pb-1.5 border-b-2 border-cyan-600">
         {data.label}
       </h2>
@@ -20,9 +21,7 @@ export function EducationSection({ data }: EducationSectionProps) {
               </div>
             </div>
             <div className="flex-1">
-              <h3 className="text-sm font-semibold text-gray-800">
-                {education.title}
-              </h3>
+              <h3 className="text-sm font-semibold text-gray-800">{education.title}</h3>
               <p className="text-cyan-600 font-medium text-xs">{education.where}</p>
               <div className="flex items-center gap-1 text-xs text-gray-600 mt-0.5">
                 <Calendar className="w-3 h-3" />
@@ -33,5 +32,5 @@ export function EducationSection({ data }: EducationSectionProps) {
         ))}
       </div>
     </section>
-  )
+  );
 }

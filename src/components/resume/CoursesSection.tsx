@@ -1,13 +1,14 @@
-import { Award, ExternalLink } from 'lucide-react'
-import type { CoursesSection } from '@/types/resume'
+import { Award, ExternalLink } from 'lucide-react';
+
+import type { CoursesSection } from '@/types/resume';
 
 interface CoursesSectionProps {
-  data: CoursesSection
+  data: CoursesSection;
 }
 
 export function CoursesSection({ data }: CoursesSectionProps) {
   return (
-    <section className="mb-5">
+    <section className="mb-5 break-inside-avoid">
       <h2 className="text-lg font-bold text-gray-800 mb-2.5 pb-1.5 border-b-2 border-cyan-600">
         {data.label}
       </h2>
@@ -47,5 +48,5 @@ export function CoursesSection({ data }: CoursesSectionProps) {
         ))}
       </div>
     </section>
-  )
+  );
 }

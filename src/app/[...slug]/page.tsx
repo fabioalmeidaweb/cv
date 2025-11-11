@@ -1,7 +1,8 @@
 import fs from 'node:fs';
 
-import { getResumeSlugs } from '@/config/resumes';
+import { getResumeFilePath, getResumeSlugs } from '@/config/resumes';
 import yaml from 'js-yaml';
+import type { Metadata } from 'next';
 import { Roboto } from 'next/font/google';
 
 import type { ResumeData } from '@/types/resume';
@@ -18,13 +19,20 @@ import './page.module.css';
 
 const font = Roboto({ subsets: ['latin'], weight: '400' });
 
-function getData(slug: string): ResumeData | null {
+function getData(slugParts: string[]): ResumeData | null {
   try {
-    const fileName = slug === 'drupal' ? 'data/drupal/en.yaml' : 'data/front-end/en.yaml';
-    const doc = yaml.load(fs.readFileSync(fileName, 'utf8')) as ResumeData;
+    const slug = slugParts.join('/');
+    const filePath = getResumeFilePath(slug);
+
+    if (!filePath) {
+      console.error(`No resume found for slug: ${slug}`);
+      return null;
+    }
+
+    const doc = yaml.load(fs.readFileSync(filePath, 'utf8')) as ResumeData;
     return doc;
   } catch (e) {
-    console.log(e);
+    console.error('Error loading resume:', e);
   }
 
   return null;
@@ -33,10 +41,9 @@ function getData(slug: string): ResumeData | null {
 export async function generateMetadata({
   params
 }: {
-  params: Promise<{ slug: string | string[] }>;
-}) {
-  const rawSlug = (await params).slug;
-  const slug = Array.isArray(rawSlug) ? rawSlug[0] : rawSlug;
+  params: Promise<{ slug: string[] }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
   const data = getData(slug);
 
   if (!data) {
@@ -56,9 +63,8 @@ export async function generateStaticParams() {
   return getResumeSlugs().map((s) => ({ slug: s.split('/') }));
 }
 
-export default async function Home({ params }: { params: Promise<{ slug: string | string[] }> }) {
-  const rawSlug = (await params).slug;
-  const slug = Array.isArray(rawSlug) ? rawSlug[0] : rawSlug;
+export default async function Home({ params }: { params: Promise<{ slug: string[] }> }) {
+  const { slug } = await params;
   const data = getData(slug);
 
   if (!data) {
@@ -70,7 +76,7 @@ export default async function Home({ params }: { params: Promise<{ slug: string 
   return (
     <>
       <div
-        className={`${font.className} mb-3 container mx-auto px-4 py-8 max-w-5xl print:w-full print:max-w-6xl `}
+        className={`${font.className} mb-3 container mx-auto px-4 py-8 max-w-5xl print:w-full print:max-w-full `}
       >
         <ResumeHeader name={data.name} position={data.position} contacts={data.contacts} />
 
