@@ -1,0 +1,186 @@
+name: Fabio Almeida
+position: Desenvolvedor Drupal
+
+contacts:
+  - label: Telefone
+    type: tel
+    value: +55 (51) 98120-2690
+  - label: E-mail
+    type: mailto
+    value: fabio.natito@gmail.com
+  - label: LinkedIn
+    type: 'url'
+    value: https://www.linkedin.com/in/fabioalmeidaweb/
+  - label: GitHub
+    type: 'url'
+    value: https://github.com/fabioalmeidaweb
+  - label: Site
+    type: 'url'
+    value: https://fabioalmeidaweb.github.io/cv
+
+about:
+  label: Sobre mim
+  values:
+    - Desenvolvedor Drupal com mais de 11 anos de experiência em desenvolvimento web, focado em soluções avançadas Drupal e integrações. Possui ampla expertise na construção e otimização de sistemas baseados em Drupal, incluindo desenvolvimento de módulos e temas customizados, integrações de sistemas e APIs, e otimização de performance. Domina arquitetura escalável e de fácil manutenção e aplica boas práticas em desenvolvimento Drupal. Habilidoso em combinar Drupal com frameworks modernos como GatsbyJS e React para aplicações web dinâmicas e de alta performance.
+    - Expertise complementar em tecnologias front-end modernas incluindo React, Redux e Zustand para gerenciamento robusto de estado e experiências de usuário de alta qualidade. Possui conhecimento avançado em Server-Side Rendering (SSR) e Static Site Generation (SSG) com Next.js e GatsbyJS. Atua tanto como desenvolvedor quanto Tech Lead, garantindo sistemas eficientes e escaláveis.
+
+skills:
+  label: Habilidades
+  values:
+    - label: Drupal & PHP
+      values:
+        - label: Drupal CMS
+        - label: Desenvolvimento de Módulos
+        - label: Desenvolvimento de Temas
+        - label: Twig
+        - label: Drupal API
+        - label: Migrate API
+        - label: PHP
+        - label: Laravel
+    - label: Tecnologias Front-end
+      values:
+        - label: ReactJS
+        - label: Redux
+        - label: Zustand
+        - label: GatsbyJS
+        - label: NextJS
+        - label: Storybook
+        - label: TypeScript
+        - label: JavaScript
+    - label: Estilização
+      values:
+        - label: SASS
+        - label: TailwindCSS
+        - label: CSS Modules
+        - label: CSS-in-JS
+    - label: DevOps & Cloud
+      values:
+        - label: Acquia Cloud
+        - label: Acquia Site Factory
+        - label: Linux
+        - label: Git
+    - label: Idiomas
+      values:
+        - label: Português
+        - label: Inglês
+
+experience:
+  label: Experiência Profissional
+  values:
+    - company: NTConsult Corp
+      position: Desenvolvedor Full Stack
+      start: Jun 2023
+      end: Present
+      where: Remoto
+      description:
+        - Desenvolveu e arquitetou soluções Drupal incluindo desenvolvimento de módulos customizados, configurações YAML e gerenciamento de sites
+        - Otimizou performance e segurança de aplicações Drupal através de caching estratégico, queue workers, event subscribers e gerenciamento eficiente de rotas
+        - Integrou Drupal com GatsbyJS para construção de sites dinâmicos de alta performance
+        - Implementou arquitetura front-end moderna com React, GatsbyJS e Storybook
+        - Construiu aplicações com React, Redux e Redux-Saga para gerenciamento eficiente de estado
+        - Liderou equipes de desenvolvimento aplicando boas práticas e garantindo entregas de alta qualidade
+      skills:
+        - Drupal
+        - PHP
+        - JavaScript
+        - ReactJS
+        - GatsbyJS
+        - Redux
+        - Zustand
+        - TanStack Query
+        - Storybook
+    - company: Hogarth Worldwide
+      position: Tech Lead Drupal
+      start: Jan 2021
+      end: Feb 2023
+      where: Remoto
+      description:
+        - Liderou equipe global de 6+ desenvolvedores Drupal, conduzindo reuniões regulares de feedback e gerenciando carga de trabalho
+        - Planejou e executou projetos de upgrade e migração Drupal
+        - Conduziu programas de treinamento interno focados em Drupal e ecossistema JavaScript
+        - Gerenciou e realizou deploy de mais de 20 projetos multisite na Acquia Cloud e Acquia Site Factory
+        - Acompanhou boards e sprints para garantir entregas de projetos e eficiência da equipe
+        - Conduziu análises e orientou a equipe na melhoria dos Core Web Vitals, alcançando scores 90+ em Performance, Acessibilidade e SEO
+        - Liderou iniciativas de acessibilidade e implementação de conformidade ADA/WCAG 2.1 AA em mais de 10 sites de clientes
+        - Elaborou estimativas de alto nível para tarefas não planejadas durante os sprints
+      skills:
+        - Drupal
+        - Liderança
+        - Acquia Cloud
+        - Gestão
+        - Web Vitals
+        - Acessibilidade (ADA)
+    - company: Hogarth Worldwide
+      position: Desenvolvedor Full Stack
+      start: Jan 2016
+      end: Jan 2021
+      where: Rio Grande do Sul, Brasil
+      description:
+        - Implementou arquitetura whitelabel de nível empresarial para ecossistemas Drupal multimarca com gerenciamento centralizado de temas
+        - Criou módulos customizados Drupal, personalizou templates e aplicou patches
+        - Integrou APIs de serviços de terceiros usando módulos customizados e Migrate API para funcionalidades adicionais
+        - Desenvolveu e manteve sites desacoplados React/Drupal
+        - Desenvolveu soluções de back-end com PHP (Laravel/Drupal)
+        - Gerenciou DevOps e infraestrutura Linux
+        - Trabalhou com metodologias ágeis (Scrum) para garantir entregas eficientes
+      skills:
+        - Drupal
+        - PHP
+        - Twig
+        - React.js
+        - SASS
+    - company: Encode Web
+      position: Desenvolvedor Back-end
+      start: Sep 2015
+      end: Dec 2015
+      where: Rio Grande do Sul, Brasil
+      description:
+        - Desenvolveu soluções de back-end com PHP (Laravel/WordPress)
+        - Gerenciou DevOps e infraestrutura Linux
+        - Trabalhou com metodologias ágeis (Scrum) para entregas eficientes
+      skills:
+        - PHP
+        - WordPress
+        - Laravel
+        - SASS
+education:
+  label: Educação
+  values:
+    - title: Técnico em Informática, Tecnologia da Informação
+      where: Dom João Becker
+      year: 2013 - 2014
+    - title: Bacharel em Geografia
+      where: PUC-SP
+      year: 2006 - 2010
+
+courses:
+  label: Cursos e Treinamentos
+  values:
+    - title: Acquia Certified Site Builder - Drupal 8
+      where: Acquia Certification Program
+      year: Oct 2018
+      link: https://certification.acquia.com/person/community/fabio-almeida
+    - title: Programming Course by Filipe Deschamps
+      where: curso.dev
+      year: Em andamento
+      link: https://curso.dev/
+    - title: Modern React with Redux [2024 Update]
+      where: Udemy
+      year: Dec 2024
+      link: https://www.udemy.com/certificate/UC-d0a7c897-ae8d-49a4-963a-d61d5c733106/
+    - title: Understanding TypeScript
+      where: Udemy
+      year: Jan 2024
+      link: https://www.udemy.com/certificate/UC-ba8012a4-1a6c-43ce-a9aa-0d274e06e439/
+    - title: Management Foundations
+      where: LinkedIn Learning
+      year: May 2022
+    - title: 'React: State Management'
+      where: LinkedIn Learning
+      year: Feb 2020
+    - title: TypeScript for Node.js Developers
+      where: LinkedIn Learning
+      year: Jan 2020
+    - title: Become a MERN Stack JavaScript Developer
+      where: LinkedIn Learning
+      year: Nov 2019

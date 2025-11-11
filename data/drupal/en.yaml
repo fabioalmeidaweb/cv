@@ -1,0 +1,186 @@
+name: Fabio Almeida
+position: Drupal Engineer
+
+contacts:
+  - label: Phone Number
+    type: tel
+    value: +55 (51) 98120-2690
+  - label: Email
+    type: mailto
+    value: fabio.natito@gmail.com
+  - label: LinkedIn
+    type: 'url'
+    value: https://www.linkedin.com/in/fabioalmeidaweb/
+  - label: GitHub
+    type: 'url'
+    value: https://github.com/fabioalmeidaweb
+  - label: Website
+    type: 'url'
+    value: https://fabioalmeidaweb.github.io/cv
+
+about:
+  label: About Me
+  values:
+    - Drupal engineer with over 11 years of experience in web development, focusing on advanced Drupal solutions and integrations. Possesses extensive expertise in building and optimizing Drupal-based systems, including custom module and theme development, system and API integrations, and performance optimization. Masters scalable, maintainable architecture and applies best practices in Drupal development. Skilled in combining Drupal with modern frameworks like GatsbyJS and React for dynamic, high-performance web applications.
+    - Complementary expertise in modern front-end technologies including React, Redux, and Zustand for robust state management and high-quality user experiences. Has advanced knowledge in Server-Side Rendering (SSR) and Static Site Generation (SSG) with Next.js and GatsbyJS. Acts as both developer and Tech Lead, ensuring efficient and scalable systems.
+
+skills:
+  label: Skills
+  values:
+    - label: Drupal & PHP
+      values:
+        - label: Drupal CMS
+        - label: Custom Module Development
+        - label: Theme Development
+        - label: Twig
+        - label: Drupal API
+        - label: Migrate API
+        - label: PHP
+        - label: Laravel
+    - label: Front-end Technologies
+      values:
+        - label: ReactJS
+        - label: Redux
+        - label: Zustand
+        - label: GatsbyJS
+        - label: NextJS
+        - label: Storybook
+        - label: TypeScript
+        - label: JavaScript
+    - label: Styling
+      values:
+        - label: SASS
+        - label: TailwindCSS
+        - label: CSS Modules
+        - label: CSS-in-JS
+    - label: DevOps & Cloud
+      values:
+        - label: Acquia Cloud
+        - label: Acquia Site Factory
+        - label: Linux
+        - label: Git
+    - label: Languages
+      values:
+        - label: English
+        - label: Portuguese
+
+experience:
+  label: Work Experience
+  values:
+    - company: NTConsult Corp
+      position: Full Stack Developer
+      start: Jun 2023
+      end: Present
+      where: Remote
+      description:
+        - Developed and architected Drupal solutions including custom module development, YAML configurations, and site management
+        - Optimized Drupal application performance and security through strategic caching, queue workers, event subscribers, and efficient route management
+        - Integrated Drupal with GatsbyJS to build dynamic, high-performance websites
+        - Implemented modern front-end architecture with React, GatsbyJS, and Storybook
+        - Built applications with React, Redux, and Redux-Saga for efficient state management
+        - Led development teams applying best practices and ensuring high-quality deliveries
+      skills:
+        - Drupal
+        - PHP
+        - JavaScript
+        - ReactJS
+        - GatsbyJS
+        - Redux
+        - Zustand
+        - TanStack Query
+        - Storybook
+    - company: Hogarth Worldwide
+      position: Drupal Tech Lead
+      start: Jan 2021
+      end: Feb 2023
+      where: Remote
+      description:
+        - Led global team of 6+ Drupal developers, conducting regular feedback meetings and managing workload
+        - Planned and executed Drupal upgrade and migration projects
+        - Conducted internal training programs focused on Drupal and JavaScript ecosystems
+        - Managed and deployed 20+ multisite projects on Acquia Cloud and Acquia Site Factory
+        - Monitored boards and sprints to ensure project deliveries and team efficiency
+        - Conducted analyses and guided the team in improving Core Web Vitals, achieving 90+ scores in Performance, Accessibility, and SEO
+        - Led accessibility initiatives and implementation of ADA/WCAG 2.1 AA compliance across 10+ client websites
+        - Prepared high-level estimates for unplanned tasks during sprints
+      skills:
+        - Drupal
+        - Leadership
+        - Acquia Cloud
+        - Management
+        - Web Vitals
+        - Accessibility (ADA)
+    - company: Hogarth Worldwide
+      position: Full Stack Developer
+      start: Jan 2016
+      end: Jan 2021
+      where: Rio Grande do Sul, Brasil
+      description:
+        - Implemented enterprise-grade whitelabel architecture for multibrand Drupal ecosystems with centralized theme management
+        - Created custom Drupal modules, customized templates, and applied patches
+        - Integrated third-party service APIs using custom modules and Migrate API for enhanced functionality
+        - Developed and maintained React/Drupal decoupled websites
+        - Developed back-end solutions with PHP (Laravel/Drupal)
+        - Managed DevOps and Linux infrastructure
+        - Worked with agile methodologies (Scrum) to ensure efficient deliveries
+      skills:
+        - Drupal
+        - PHP
+        - Twig
+        - React.js
+        - SASS
+    - company: Encode Web
+      position: Back-end Developer
+      start: Sep 2015
+      end: Dec 2015
+      where: Rio Grande do Sul, Brasil
+      description:
+        - Developed back-end solutions with PHP (Laravel/WordPress)
+        - Managed DevOps and Linux infrastructure
+        - Worked with agile methodologies (Scrum) for efficient deliveries
+      skills:
+        - PHP
+        - WordPress
+        - Laravel
+        - SASS
+education:
+  label: Education
+  values:
+    - title: Técnico em Informática, Tecnologia da Informação
+      where: Dom João Becker
+      year: 2013 - 2014
+    - title: Bachelor of Geography
+      where: PUC-SP
+      year: 2006 - 2010
+
+courses:
+  label: Courses and Trainings
+  values:
+    - title: Acquia Certified Site Builder - Drupal 8
+      where: Acquia Certification Program
+      year: Oct 2018
+      link: https://certification.acquia.com/person/community/fabio-almeida
+    - title: Programming Course by Filipe Deschamps
+      where: curso.dev
+      year: In progress
+      link: https://curso.dev/
+    - title: Modern React with Redux [2024 Update]
+      where: Udemy
+      year: Dec 2024
+      link: https://www.udemy.com/certificate/UC-d0a7c897-ae8d-49a4-963a-d61d5c733106/
+    - title: Understanding TypeScript
+      where: Udemy
+      year: Jan 2024
+      link: https://www.udemy.com/certificate/UC-ba8012a4-1a6c-43ce-a9aa-0d274e06e439/
+    - title: Management Foundations
+      where: LinkedIn Learning
+      year: May 2022
+    - title: 'React: State Management'
+      where: LinkedIn Learning
+      year: Feb 2020
+    - title: TypeScript for Node.js Developers
+      where: LinkedIn Learning
+      year: Jan 2020
+    - title: Become a MERN Stack JavaScript Developer
+      where: LinkedIn Learning
+      year: Nov 2019
