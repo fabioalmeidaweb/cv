@@ -1,5 +1,5 @@
 name: Fabio Almeida
-position: Engenheiro Full Stack
+position: Desenvolvedor Full Stack
 
 contacts:
   - label: Telefone
@@ -21,8 +21,8 @@ contacts:
 about:
   label: Sobre mim
   values:
-    - Engenheiro full stack com mais de 11 anos de experiência, especializado em React, Redux e Redux-Saga. Profissional experiente com profundo conhecimento em frameworks modernos de desenvolvimento web, focado na construção de soluções escaláveis e de fácil manutenção. Ampla experiência em ReactJS, aproveitando o gerenciamento de estado com Redux e Redux-Saga para criar aplicações integradas e de alto desempenho. Proficiente em técnicas de Server-Side Rendering (SSR) e Static Site Generation (SSG) com Next.js e GatsbyJS para melhorar a performance e a experiência do usuário.
-    - Além da expertise em front-end, atuo com Drupal, incluindo desenvolvimento avançado de módulos e temas, integrações de sistemas e APIs, e otimização de performance. Experiência comprovada tanto como desenvolvedor quanto como Tech Lead na aplicação das melhores práticas de desenvolvimento e arquitetura, garantindo sistemas robustos, escaláveis e eficientes.
+    - Desenvolvedor full stack com mais de 11 anos de experiência, especializado em TypeScript e JavaScript, atuando tanto no front-end quanto no back-end. Possui experiência sólida em frameworks modernos de desenvolvimento web, com foco em soluções escaláveis e de fácil manutenção. Domina ReactJS com gerenciamento de estado utilizando Redux e Zustand para criar aplicações integradas e de alta performance. Possui conhecimento avançado em Server-Side Rendering (SSR) e Static Site Generation (SSG) com Next.js e GatsbyJS.
+    - Experiência complementar em Drupal, incluindo desenvolvimento de módulos customizados, temas, integrações com sistemas e APIs, além de otimização de performance. Atua tanto como desenvolvedor quanto Tech Lead, aplicando boas práticas de desenvolvimento e arquitetura de software para garantir sistemas robustos, escaláveis e eficientes.
 
 skills:
   label: Habilidades
@@ -47,7 +47,7 @@ skills:
         - label: ReactJS
         - label: Redux
         - label: Zustand
-        - label: TanSack Query
+        - label: TanStack Query
     - label: Estilização
       values:
         - label: SASS
@@ -57,8 +57,8 @@ skills:
         - label: CSS-in-JS
     - label: Idiomas
       values:
-        - label: Inglês
         - label: Português
+        - label: Inglês
 
 experience:
   label: Experiência Profissional
@@ -67,13 +67,13 @@ experience:
       position: Desenvolvedor Full Stack
       start: Jun 2023
       end: Present
-      where: Remote
+      where: Remoto
       description:
-        - Implementei o front-end de um painel de monitoramento de ETL com Vite e React, com foco em UI orientada a componentes usando primitives do shadcn e Tailwind para layouts acessíveis e responsivos
-        - Criei gráficos de séries temporais interativos com Recharts (tooltips, zoom/pan) e otimizei a apresentação com lazy loading, memoização e estados claros de carregamento/erro
-        - Construi aplicações web modernas com React, Redux e Redux-Saga para gerenciamento de estado e tratamento assíncrono de dados
-        - Integrei Drupal com GatsbyJS para construir sites dinâmicos e de alto desempenho
-        - Liderei equipes de desenvolvimento enfatizando boas práticas e entrega de projetos com alta qualidade
+        - Desenvolveu o front-end de um painel de monitoramento de ETL com Vite e React, criando interface baseada em componentes com Shadcn UI e Tailwind CSS para garantir acessibilidade e responsividade
+        - Implementou gráficos interativos de séries temporais com Recharts, incluindo tooltips, zoom e pan, otimizados com lazy loading, memoização e tratamento claro de estados de carregamento e erro
+        - Construiu aplicações web modernas com React, Redux e Redux-Saga para gerenciamento eficiente de estado e processamento assíncrono de dados
+        - Integrou Drupal com GatsbyJS para construção de sites dinâmicos de alta performance
+        - Liderou equipes de desenvolvimento aplicando boas práticas e garantindo entregas de alta qualidade
       skills:
         - JavaScript
         - ReactJS
@@ -89,14 +89,14 @@ experience:
       position: Tech Lead Drupal
       start: Jan 2021
       end: Feb 2023
-      where: Remote
+      where: Remoto
       description:
-        - Liderei uma equipe global de 6+ desenvolvedores Drupal, conduzindo reuniões regulares de feedback e gerenciando jornada de trabalho
-        - Monitorei boards e sprints para assegurar a entrega de projetos e a eficiência da equipe
-        - Conduzi análises e orientei a equipe para melhorar os Core Web Vitals, alcançando notas 90+ em Performance, Acessibilidade e SEO
-        - Liderei atividades de acessibilidade e direcionei a implementação da conformidade ADA/WCAG 2.1 AA em 10+ sites de clientes
-        - Gerenciei e realizei deploy de 20+ projetos multisite na Acquia Cloud e Acquia Site Factory
-        - Forneci estimativas de alto nível para tarefas não planejadas nos sprints
+        - Liderou equipe global de 6+ desenvolvedores Drupal, conduzindo reuniões regulares de feedback e gerenciando carga de trabalho
+        - Acompanhou boards e sprints para garantir entregas de projetos e eficiência da equipe
+        - Conduziu análises e orientou a equipe na melhoria dos Core Web Vitals, alcançando scores 90+ em Performance, Acessibilidade e SEO
+        - Liderou iniciativas de acessibilidade e implementação de conformidade ADA/WCAG 2.1 AA em mais de 10 sites de clientes
+        - Gerenciou e realizou deploy de mais de 20 projetos multisite na Acquia Cloud e Acquia Site Factory
+        - Elaborou estimativas de alto nível para tarefas não planejadas durante os sprints
       skills:
         - Liderança
         - Acquia Cloud
@@ -111,12 +111,12 @@ experience:
       end: Jan 2021
       where: Rio Grande do Sul, Brasil
       description:
-        - Desenvolvi soluções de back-end usando PHP (Laravel/Drupal)
-        - Criei módulos Drupal, personalizei templates e apliquei correções (patches)
-        - Integrei APIs de serviços terceiros para funcionalidades adicionais
-        - Desenvolvi e mantive sites desacoplados React/Drupal
-        - Gerenciei DevOps e infraestrutura Linux
-        - Apliquei metodologias ágeis, especialmente Scrum, para entrega eficiente de projetos
+        - Desenvolveu soluções de back-end com PHP (Laravel/Drupal)
+        - Criou módulos customizados Drupal, personalizou templates e aplicou patches
+        - Integrou APIs de serviços de terceiros para funcionalidades adicionais
+        - Desenvolveu e manteve sites desacoplados React/Drupal
+        - Gerenciou DevOps e infraestrutura Linux
+        - Trabalhou com metodologias ágeis (Scrum) para garantir entregas eficientes
       skills:
         - SASS
         - PHP
@@ -128,9 +128,9 @@ experience:
       end: Dec 2015
       where: Rio Grande do Sul, Brasil
       description:
-        - Desenvolvi soluções de back-end usando PHP (Laravel/WordPress)
-        - Gerenciei DevOps e infraestrutura Linux
-        - Apliquei metodologias ágeis, particularmente Scrum, para gerenciamento eficiente de projetos
+        - Desenvolveu soluções de back-end com PHP (Laravel/WordPress)
+        - Gerenciou DevOps e infraestrutura Linux
+        - Trabalhou com metodologias ágeis (Scrum) para entregas eficientes
       skills:
         - SASS
         - PHP
