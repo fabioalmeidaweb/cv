@@ -1,12 +1,13 @@
+import { Metadata } from 'next';
 import Script from 'next/script';
 
 import './globals.css';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Fabio Almeida | Resume',
   description: "English version of Fabio Almeida's Curriculum",
   icons: {
-    icon: 'favicon.ico'
+    icon: '/favicon.svg'
   }
 };
 
