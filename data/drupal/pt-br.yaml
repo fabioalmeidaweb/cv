@@ -16,7 +16,7 @@ contacts:
     value: https://github.com/fabioalmeidaweb
   - label: Site
     type: 'url'
-    value: https://fabioalmeidaweb.github.io/cv
+    value: https://fabioalmeidaweb.github.io/cv/drupal/pt-br
 
 about:
   label: Sobre mim

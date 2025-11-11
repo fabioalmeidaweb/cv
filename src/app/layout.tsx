@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Fabio Almeida | Resume',
   description: "English version of Fabio Almeida's Curriculum",
   icons: {
-    icon: '/favicon.svg'
+    icon: 'https://fabioalmeidaweb.github.io/cv/favicon.svg'
   }
 };
 
