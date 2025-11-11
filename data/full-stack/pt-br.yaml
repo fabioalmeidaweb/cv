@@ -149,9 +149,14 @@ education:
 courses:
   label: Cursos e Treinamentos
   values:
+    - title: Curso de Programação do Filipe Deschamps
+      where: curso.dev
+      year: In progress
+      link: https://curso.dev/
     - title: Modern React with Redux [2024 Update]
       where: Udemy
       year: Dec 2024
+      link: https://www.udemy.com/certificate/UC-d0a7c897-ae8d-49a4-963a-d61d5c733106/
     - title: Understanding TypeScript
       where: Udemy
       year: Jan 2024
@@ -171,3 +176,4 @@ courses:
     - title: Acquia Certified Site Builder - Drupal 8
       where: Acquia Certification Program
       year: Oct 2018
+      link: https://certification.acquia.com/person/community/fabio-almeida
