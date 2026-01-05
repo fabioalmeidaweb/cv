@@ -76,7 +76,7 @@ export default async function Home({ params }: { params: Promise<{ slug: string[
   return (
     <>
       <div
-        className={`${font.className} mb-3 container mx-auto px-4 py-8 max-w-5xl print:w-full print:max-w-full `}
+        className={`${font.className} mb-3 container mx-auto px-4 py-8 max-w-5xl print:p-0 print:w-full print:max-w-full `}
       >
         <ResumeHeader name={data.name} position={data.position} contacts={data.contacts} />
 
