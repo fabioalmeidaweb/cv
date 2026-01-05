@@ -1,0 +1,182 @@
+name: Fabio Almeida
+position: Desenvolvedor Front-end
+
+contacts:
+  - label: Telefone
+    type: tel
+    value: +55 (51) 98120-2690
+  - label: E-mail
+    type: mailto
+    value: fabio.natito@gmail.com
+  - label: LinkedIn
+    type: 'url'
+    value: https://www.linkedin.com/in/fabioalmeidaweb/
+  - label: GitHub
+    type: 'url'
+    value: https://github.com/fabioalmeidaweb
+  - label: Site
+    type: 'url'
+    value: https://fabioalmeidaweb.github.io/cv/front-end/pt-br
+
+about:
+  label: Sobre mim
+  values:
+    - Desenvolvedor front-end com mais de 11 anos de experiência, especializado em criar interfaces modernas, responsivas e de alta performance com ReactJS, TypeScript e JavaScript. Possui expertise avançada em gerenciamento de estado com Redux e Zustand, construção de aplicações escaláveis e componentização reutilizável com foco em experiência do usuário.
+    - Domina Server-Side Rendering (SSR) e Static Site Generation (SSG) com Next.js e GatsbyJS, com sólida experiência em otimização de performance, acessibilidade (WCAG 2.1 AA) e Core Web Vitals. Capacidade comprovada de liderar equipes técnicas, implementar design systems com Storybook e garantir a entrega de aplicações robustas seguindo as melhores práticas de desenvolvimento front-end.
+
+skills:
+  label: Habilidades
+  values:
+    - label: Bibliotecas e Frameworks
+      values:
+        - label: ReactJS
+        - label: NextJS
+        - label: GatsbyJS
+        - label: Redux
+        - label: Zustand
+        - label: TanStack Query
+    - label: Linguagens de Programação
+      values:
+        - label: TypeScript
+        - label: JavaScript
+        - label: PHP
+        - label: Golang
+    - label: Ferramentas de Build e Dev
+      values:
+        - label: Vite
+        - label: Storybook
+        - label: Webpack
+    - label: Estilização
+      values:
+        - label: TailwindCSS
+        - label: Shadcn/UI
+        - label: SASS
+        - label: CSS Modules
+        - label: CSS-in-JS
+    - label: Back-end Complementar
+      values:
+        - label: NodeJS
+        - label: NestJS
+        - label: Drupal CMS
+    - label: Idiomas
+      values:
+        - label: Português
+        - label: Inglês
+
+experience:
+  label: Experiência Profissional
+  values:
+    - company: NTConsult Corp
+      position: Desenvolvedor Full Stack
+      start: Jun 2023
+      end: Present
+      where: Remoto
+      description:
+        - Desenvolveu o front-end de um painel de monitoramento de ETL com Vite e React, criando interface baseada em componentes com Shadcn UI e Tailwind CSS para garantir acessibilidade e responsividade
+        - Implementou gráficos interativos de séries temporais com Recharts, incluindo tooltips, zoom e pan, otimizados com lazy loading, memoização e tratamento claro de estados de carregamento e erro
+        - Construiu aplicações web modernas com React, Redux e Redux-Saga para gerenciamento eficiente de estado e processamento assíncrono de dados
+        - Integrou Drupal com GatsbyJS para construção de sites dinâmicos de alta performance
+        - Liderou equipes de desenvolvimento aplicando boas práticas e garantindo entregas de alta qualidade
+      skills:
+        - JavaScript
+        - ReactJS
+        - GatsbyJS
+        - NestJS
+        - Redux
+        - Zustand
+        - TanStack Query
+        - Storybook
+        - TailwindCSS
+        - Drupal
+    - company: Hogarth Worldwide
+      position: Tech Lead Drupal
+      start: Jan 2021
+      end: Feb 2023
+      where: Remoto
+      description:
+        - Liderou equipe global de 6+ desenvolvedores Drupal, conduzindo reuniões regulares de feedback e gerenciando carga de trabalho
+        - Acompanhou boards e sprints para garantir entregas de projetos e eficiência da equipe
+        - Conduziu análises e orientou a equipe na melhoria dos Core Web Vitals, alcançando scores 90+ em Performance, Acessibilidade e SEO
+        - Liderou iniciativas de acessibilidade e implementação de conformidade ADA/WCAG 2.1 AA em mais de 10 sites de clientes
+        - Gerenciou e realizou deploy de mais de 20 projetos multisite na Acquia Cloud e Acquia Site Factory
+        - Elaborou estimativas de alto nível para tarefas não planejadas durante os sprints
+      skills:
+        - Liderança
+        - Acquia Cloud
+        - JavaScript
+        - Drupal
+        - Gestão
+        - Web Vitals
+        - Acessibilidade (ADA)
+    - company: Hogarth Worldwide
+      position: Desenvolvedor Full Stack
+      start: Jan 2016
+      end: Jan 2021
+      where: Rio Grande do Sul, Brasil
+      description:
+        - Desenvolveu soluções de back-end com PHP (Laravel/Drupal)
+        - Criou módulos customizados Drupal, personalizou templates e aplicou patches
+        - Integrou APIs de serviços de terceiros para funcionalidades adicionais
+        - Desenvolveu e manteve sites desacoplados React/Drupal
+        - Gerenciou DevOps e infraestrutura Linux
+        - Trabalhou com metodologias ágeis (Scrum) para garantir entregas eficientes
+      skills:
+        - SASS
+        - PHP
+        - Drupal
+        - React.js
+    - company: Encode Web
+      position: Desenvolvedor Back-end
+      start: Sep 2015
+      end: Dec 2015
+      where: Rio Grande do Sul, Brasil
+      description:
+        - Desenvolveu soluções de back-end com PHP (Laravel/WordPress)
+        - Gerenciou DevOps e infraestrutura Linux
+        - Trabalhou com metodologias ágeis (Scrum) para entregas eficientes
+      skills:
+        - SASS
+        - PHP
+        - WordPress
+        - Web Applications
+education:
+  label: Educação
+  values:
+    - title: Técnico em Informática, Tecnologia da Informação
+      where: Dom João Becker
+      year: 2013 - 2014
+    - title: Bacharel em Geografia
+      where: PUC-SP
+      year: 2006 - 2010
+
+courses:
+  label: Cursos e Treinamentos
+  values:
+    - title: Curso de Programação do Filipe Deschamps
+      where: curso.dev
+      year: In progress
+      link: https://curso.dev/
+    - title: Modern React with Redux [2024 Update]
+      where: Udemy
+      year: Dec 2024
+      link: https://www.udemy.com/certificate/UC-d0a7c897-ae8d-49a4-963a-d61d5c733106/
+    - title: Understanding TypeScript
+      where: Udemy
+      year: Jan 2024
+      link: https://www.udemy.com/certificate/UC-ba8012a4-1a6c-43ce-a9aa-0d274e06e439/
+    - title: Management Foundations
+      where: LinkedIn Learning
+      year: May 2022
+    - title: 'React: State Management'
+      where: LinkedIn Learning
+      year: Feb 2020
+    - title: TypeScript for Node.js Developers
+      where: LinkedIn Learning
+      year: Jan 2020
+    - title: Become a MERN Stack JavaScript Developer
+      where: LinkedIn Learning
+      year: Nov 2019
+    - title: Acquia Certified Site Builder - Drupal 8
+      where: Acquia Certification Program
+      year: Oct 2018
+      link: https://certification.acquia.com/person/community/fabio-almeida
