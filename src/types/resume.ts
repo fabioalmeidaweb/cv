@@ -28,13 +28,19 @@ export interface LanguagesSection {
   }[];
 }
 
+export interface ExperienceProject {
+  name: string;
+  description: string[];
+}
+
 export interface ExperienceItem {
   company: string;
   position: string;
   start: string;
   end: string;
   where: string;
-  description: string[];
+  description?: string[];
+  projects?: ExperienceProject[];
   skills: string[];
 }
 

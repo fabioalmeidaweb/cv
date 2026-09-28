@@ -82,13 +82,19 @@ experience:
       start: Jun 2023
       end: Present
       where: Remote
-      description:
-        - "AI workflows: Built tool-agnostic agentic workflows (Claude Code, Codex, Pi) with MCP integrations (Jira, Confluence, Figma), automating bug fixing from ticket to PR with parallel subagents and automated code review in CI, cutting average bug-fix time by more than 50%"
-        - "Agribusiness SaaS: Developed and maintained a management platform used in 30 countries and 3,700+ farms, with React and TypeScript, using Redux Toolkit, Tailwind CSS, and an in-house design system, including Highcharts dashboards, exportable reports, i18n, and testing with Jest and Playwright"
-        - "Agribusiness SaaS: Developed BFF APIs in Node.js with NestJS aggregating up to 5 microservices, with JWT authentication, Swagger, PostgreSQL, and Redis, plus CI/CD with Docker, GitHub Actions, and GCP"
-        - "ETL dashboard: Developed the monitoring front-end with React, Shadcn UI, and Tailwind CSS, featuring interactive time-series charts with Recharts"
-        - "Drupal + Gatsby: Integrated Drupal with GatsbyJS and built React applications with Redux and Redux-Saga for dynamic, high-performance websites"
-        - Led teams of up to 5 developers, applying best practices and ensuring high-quality deliveries
+      projects:
+        - name: Agribusiness SaaS Platform
+          description:
+            - Built tool-agnostic agentic workflows (Claude Code, Codex, Pi) with MCP integrations (Jira, Confluence, Figma), automating bug fixing from ticket to PR with parallel subagents and automated code review in CI, cutting average bug-fix time by more than 50%
+            - Developed and maintained a management platform used in 30 countries and 3,700+ farms, with React and TypeScript, using Redux Toolkit, Tailwind CSS, and an in-house design system, including Highcharts dashboards, exportable reports, i18n, and testing with Jest and Playwright
+            - Developed BFF APIs in Node.js with NestJS aggregating up to 5 microservices, with JWT authentication, Swagger, PostgreSQL, and Redis, plus CI/CD with Docker, GitHub Actions, and GCP
+        - name: ETL Monitoring Dashboard
+          description:
+            - Developed the monitoring front-end with React, Shadcn UI, and Tailwind CSS, featuring interactive time-series charts with Recharts
+        - name: Drupal + GatsbyJS
+          description:
+            - Integrated Drupal with GatsbyJS and built React applications with Redux and Redux-Saga for dynamic, high-performance websites
+            - Led teams of up to 5 developers, applying best practices and ensuring high-quality deliveries
       skills:
         - TypeScript
         - ReactJS

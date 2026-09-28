@@ -2,6 +2,18 @@ import { Calendar, MapPin } from 'lucide-react';
 
 import type { ExperienceSection } from '@/types/resume';
 
+function DescriptionList({ items }: { items: string[] }) {
+  return (
+    <ul className="space-y-1 mb-2 list-disc list-inside">
+      {items.map((desc, descIndex) => (
+        <li key={descIndex} className="text-gray-700 leading-relaxed text-sm mb-0">
+          {desc}
+        </li>
+      ))}
+    </ul>
+  );
+}
+
 interface ExperienceSectionProps {
   data: ExperienceSection;
 }
@@ -34,13 +46,14 @@ export function ExperienceSection({ data }: ExperienceSectionProps) {
               </div>
             </div>
 
-            <ul className="space-y-1 mb-2 list-disc list-inside">
-              {experience.description.map((desc, descIndex) => (
-                <li key={descIndex} className="text-gray-700 leading-relaxed text-sm mb-0">
-                  {desc}
-                </li>
-              ))}
-            </ul>
+            {experience.description && <DescriptionList items={experience.description} />}
+
+            {experience.projects?.map((project, projectIndex) => (
+              <div key={projectIndex} className="mt-2 break-inside-avoid">
+                <h4 className="text-sm font-semibold text-gray-800 mb-0.5">{project.name}</h4>
+                <DescriptionList items={project.description} />
+              </div>
+            ))}
 
             <div className="flex flex-wrap gap-1.5">
               {experience.skills.map((skill, skillIndex) => (
