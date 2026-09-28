@@ -1,5 +1,5 @@
 name: Fabio Almeida
-position: Desenvolvedor Full Stack
+position: Engenheiro Full Stack Sênior
 
 contacts:
   - label: Telefone
@@ -21,80 +21,86 @@ contacts:
 about:
   label: Sobre mim
   values:
-    - Desenvolvedor full stack com mais de 11 anos de experiência, especializado em TypeScript e JavaScript, atuando tanto no front-end quanto no back-end. Possui experiência sólida em frameworks modernos de desenvolvimento web, com foco em soluções escaláveis e de fácil manutenção. Domina ReactJS com gerenciamento de estado utilizando Redux e Zustand para criar aplicações integradas e de alta performance. Possui conhecimento avançado em Server-Side Rendering (SSR) e Static Site Generation (SSG) com Next.js e GatsbyJS.
-    - Experiência complementar em Drupal, incluindo desenvolvimento de módulos customizados, temas, integrações com sistemas e APIs, além de otimização de performance. Atua tanto como desenvolvedor quanto Tech Lead, aplicando boas práticas de desenvolvimento e arquitetura de software para garantir sistemas robustos, escaláveis e eficientes.
+    - Engenheiro full stack sênior com mais de 11 anos de experiência, especializado em TypeScript, React e Node.js. Atua de ponta a ponta em plataformas SaaS, de interfaces com React e Redux Toolkit a APIs Backend-for-Frontend com NestJS integrando microsserviços, PostgreSQL e Redis, além de CI/CD com Docker, GitHub Actions e GCP.
+    - Incorpora IA agêntica ao ciclo de desenvolvimento, criando workflows com Claude Code, Codex, Pi e MCP que automatizam a correção de bugs do ticket ao PR. Tem experiência também com Next.js, GatsbyJS e Drupal, atuando como desenvolvedor e Tech Lead.
 
 skills:
   label: Habilidades
   values:
-    - label: Linguagens de Programação
+    - label: Linguagens
       values:
         - label: TypeScript
         - label: JavaScript
-        - label: Golang
         - label: PHP
-    - label: Frameworks e Ferramentas
-      values:
-        - label: Vite
-        - label: NextJS
-        - label: GatsbyJS
-        - label: Storybook
-        - label: NodeJS
-        - label: NestJS
-        - label: Drupal CMS
-    - label: Bibliotecas
+        - label: Golang
+    - label: Front-end
       values:
         - label: ReactJS
-        - label: Redux
+        - label: NextJS
+        - label: GatsbyJS
+        - label: Redux Toolkit
         - label: Zustand
         - label: TanStack Query
-    - label: Estilização
-      values:
-        - label: SASS
         - label: TailwindCSS
         - label: Shadcn/UI
-        - label: CSS Modules
-        - label: CSS-in-JS
+        - label: Storybook
+    - label: Back-end & Dados
+      values:
+        - label: NodeJS
+        - label: NestJS
+        - label: PostgreSQL
+        - label: Redis
+        - label: Drupal CMS
+    - label: Testes & DevOps
+      values:
+        - label: Jest
+        - label: Testing Library
+        - label: Playwright
+        - label: Docker
+        - label: GitHub Actions
+        - label: GCP
     - label: Inteligência Artificial
       values:
         - label: Claude Code
-        - label: Pi
+        - label: Codex
+        - label: Antigravity
+        - label: Pi (agente de código)
         - label: Workflows Agênticos
-        - label: Subagentes
-        - label: Skills
+        - label: Agent Skills
         - label: MCP
-        - label: AI Memory
+        - label: Memória Persistente
     - label: Idiomas
       values:
-        - label: Português
-        - label: Inglês
+        - label: Português (Nativo)
+        - label: Inglês (Avançado, C1)
 
 experience:
   label: Experiência Profissional
   values:
     - company: NTConsult Corp
-      position: Desenvolvedor Full Stack
+      position: Engenheiro Full Stack Sênior
       start: Jun 2023
       end: Present
       where: Remoto
       description:
-        - Criou workflows agênticos agnósticos de ferramenta (Claude Code, Pi) com integrações MCP (Jira, Confluence, Figma), automatizando a correção de bugs do ticket até o PR com subagentes em paralelo e code review automatizado no CI
-        - Desenvolveu e manteve plataforma SaaS de gestão para o agronegócio em React e TypeScript, com Redux Toolkit, Tailwind CSS e design system próprio, incluindo dashboards com Highcharts, relatórios exportáveis, i18n e testes com Jest e Playwright
-        - Desenvolveu APIs BFF em Node.js com NestJS agregando microsserviços, com autenticação JWT, Swagger, PostgreSQL e Redis, observabilidade com OpenTelemetry e Prometheus e CI/CD com Docker, GitHub Actions e GCP
-        - Desenvolveu painel de monitoramento de ETL com React, Shadcn UI e Tailwind CSS, com gráficos interativos de séries temporais em Recharts
-        - Integrou Drupal com GatsbyJS e construiu aplicações React com Redux e Redux-Saga para sites dinâmicos de alta performance
-        - Liderou equipes de desenvolvimento aplicando boas práticas e garantindo entregas de alta qualidade
+        - "Workflows de IA: criou workflows agênticos agnósticos de ferramenta (Claude Code, Codex, Pi) com integrações MCP (Jira, Confluence, Figma), automatizando a correção de bugs do ticket até o PR com subagentes em paralelo e code review automatizado no CI, reduzindo em mais de 50% o tempo médio de correção"
+        - "SaaS agro: desenvolveu e manteve plataforma de gestão usada em 30 países e mais de 3,7 mil granjas, em React e TypeScript, com Redux Toolkit, Tailwind CSS e design system próprio, incluindo dashboards com Highcharts, relatórios exportáveis, i18n e testes com Jest e Playwright"
+        - "SaaS agro: desenvolveu APIs BFF em Node.js com NestJS agregando até 5 microsserviços, com autenticação JWT, Swagger, PostgreSQL e Redis, além de CI/CD com Docker, GitHub Actions e GCP"
+        - "Painel ETL: desenvolveu o front-end de monitoramento com React, Shadcn UI e Tailwind CSS, com gráficos interativos de séries temporais em Recharts"
+        - "Drupal + Gatsby: integrou Drupal com GatsbyJS e construiu aplicações React com Redux e Redux-Saga para sites dinâmicos de alta performance"
+        - Liderou times de até 5 desenvolvedores, aplicando boas práticas e garantindo entregas de alta qualidade
       skills:
-        - JavaScript
+        - TypeScript
         - ReactJS
-        - GatsbyJS
+        - Redux Toolkit
         - NestJS
-        - Redux
-        - Zustand
-        - TanStack Query
-        - Storybook
-        - TailwindCSS
-        - Drupal
+        - PostgreSQL
+        - Redis
+        - Docker
+        - GCP
+        - Playwright
+        - Claude Code
+        - MCP
     - company: Hogarth Worldwide
       position: Tech Lead Drupal
       start: Jan 2021
@@ -159,6 +165,10 @@ education:
 courses:
   label: Cursos e Treinamentos
   values:
+    - title: Claude Code in Action
+      where: Anthropic
+      year: Jun 2026
+      link: https://verify.skilljar.com/c/s7hnegpx376r
     - title: Curso de Programação do Filipe Deschamps
       where: curso.dev
       year: In progress
@@ -180,9 +190,6 @@ courses:
     - title: TypeScript for Node.js Developers
       where: LinkedIn Learning
       year: Jan 2020
-    - title: Become a MERN Stack JavaScript Developer
-      where: LinkedIn Learning
-      year: Nov 2019
     - title: Acquia Certified Site Builder - Drupal 8
       where: Acquia Certification Program
       year: Oct 2018

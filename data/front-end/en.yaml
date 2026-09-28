@@ -1,5 +1,5 @@
 name: Fabio Almeida
-position: Front-end Engineer
+position: Senior Front-end Engineer
 
 contacts:
   - label: Phone Number
@@ -21,38 +21,36 @@ contacts:
 about:
   label: About Me
   values:
-    - Front-end developer with over 11 years of experience, specializing in building modern, responsive, and high-performance interfaces with ReactJS, TypeScript, and JavaScript. Possesses advanced expertise in state management with Redux and Zustand, building scalable applications and reusable componentization with a focus on user experience.
-    - Masters Server-Side Rendering (SSR) and Static Site Generation (SSG) with Next.js and GatsbyJS, with solid experience in performance optimization, accessibility (WCAG 2.1 AA), and Core Web Vitals. Proven ability to lead technical teams, implement design systems with Storybook, and ensure delivery of robust applications following front-end development best practices.
+    - Senior front-end engineer with over 11 years of experience, specializing in React and TypeScript. Builds SaaS platforms with Redux Toolkit, Tailwind CSS, and design systems, including data dashboards, internationalization, and testing with Jest and Playwright, as well as BFF APIs with NestJS.
+    - Experienced in SSR and SSG with Next.js (App Router and React Server Components) and GatsbyJS, performance, accessibility (WCAG 2.1 AA), and Core Web Vitals. Uses agentic AI daily, with Claude Code, Codex, Pi, and MCP workflows that automate bug fixing from ticket to PR. Works as both developer and Tech Lead.
 
 skills:
   label: Skills
   values:
-    - label: Libraries & Frameworks
-      values:
-        - label: ReactJS
-        - label: NextJS
-        - label: GatsbyJS
-        - label: Redux
-        - label: Zustand
-        - label: TanStack Query
-    - label: Programming Languages
+    - label: Front-end
       values:
         - label: TypeScript
         - label: JavaScript
-        - label: PHP
-        - label: Golang
-    - label: Build & Dev Tools
-      values:
-        - label: Vite
-        - label: Storybook
-        - label: Webpack
+        - label: ReactJS
+        - label: NextJS (App Router)
+        - label: GatsbyJS
+        - label: Redux Toolkit
+        - label: Zustand
+        - label: TanStack Query
+        - label: Highcharts
     - label: Styling
       values:
         - label: TailwindCSS
         - label: Shadcn/UI
         - label: SASS
         - label: CSS Modules
-        - label: CSS-in-JS
+    - label: Tooling & Testing
+      values:
+        - label: Vite
+        - label: Storybook
+        - label: Jest
+        - label: Testing Library
+        - label: Playwright
     - label: Complementary Back-end
       values:
         - label: NodeJS
@@ -61,43 +59,43 @@ skills:
     - label: Artificial Intelligence
       values:
         - label: Claude Code
-        - label: Pi
+        - label: Codex
+        - label: Antigravity
+        - label: Pi (coding agent)
         - label: Agentic Workflows
-        - label: Subagents
-        - label: Skills
+        - label: Agent Skills
         - label: MCP
-        - label: AI Memory
+        - label: Persistent Agent Memory
     - label: Languages
       values:
-        - label: English
-        - label: Portuguese
+        - label: English (Advanced, C1)
+        - label: Portuguese (Native)
 
 experience:
   label: Work Experience
   values:
     - company: NTConsult Corp
-      position: Full Stack Developer
+      position: Senior Full Stack Engineer
       start: Jun 2023
       end: Present
       where: Remote
       description:
-        - Built tool-agnostic agentic workflows (Claude Code, Pi) with MCP integrations (Jira, Confluence, Figma), automating bug fixing from ticket to PR with parallel subagents and automated code review in CI
-        - Developed and maintained a SaaS management platform for agribusiness with React and TypeScript, using Redux Toolkit, Tailwind CSS, and an in-house design system, including Highcharts dashboards, exportable reports, i18n, testing with Jest and Playwright, and BFF APIs with NestJS
-        - Developed an ETL monitoring dashboard with React, Shadcn UI, and Tailwind CSS, featuring interactive time-series charts with Recharts
-        - Built modern web applications with React, Redux, and Redux-Saga for efficient state management and asynchronous data processing
-        - Integrated Drupal with GatsbyJS to build dynamic, high-performance websites
-        - Led development teams applying best practices and ensuring high-quality deliveries
+        - "AI workflows: Built tool-agnostic agentic workflows (Claude Code, Codex, Pi) with MCP integrations (Jira, Confluence, Figma), automating bug fixing from ticket to PR with parallel subagents and automated code review in CI, cutting average bug-fix time by more than 50%"
+        - "Agribusiness SaaS: Developed and maintained a management platform used in 30 countries and 3,700+ farms, with React and TypeScript, using Redux Toolkit, Tailwind CSS, and an in-house design system, including Highcharts dashboards, exportable reports, i18n, testing with Jest and Playwright, and BFF APIs with NestJS"
+        - "ETL dashboard: Developed the monitoring front-end with React, Shadcn UI, and Tailwind CSS, featuring interactive time-series charts with Recharts"
+        - "Drupal + Gatsby: Integrated Drupal with GatsbyJS and built React applications with Redux and Redux-Saga for dynamic, high-performance websites"
+        - Led teams of up to 5 developers, applying best practices and ensuring high-quality deliveries
       skills:
-        - JavaScript
+        - TypeScript
         - ReactJS
-        - GatsbyJS
-        - NestJS
-        - Redux
-        - Zustand
-        - TanStack Query
-        - Storybook
+        - Redux Toolkit
         - TailwindCSS
-        - Drupal
+        - Highcharts
+        - Jest
+        - Playwright
+        - NestJS
+        - Claude Code
+        - MCP
     - company: Hogarth Worldwide
       position: Drupal Tech Lead
       start: Jan 2021
@@ -162,6 +160,10 @@ education:
 courses:
   label: Courses and Trainings
   values:
+    - title: Claude Code in Action
+      where: Anthropic
+      year: Jun 2026
+      link: https://verify.skilljar.com/c/s7hnegpx376r
     - title: Programming Course by Filipe Deschamps
       where: curso.dev
       year: In progress
@@ -183,9 +185,6 @@ courses:
     - title: TypeScript for Node.js Developers
       where: LinkedIn Learning
       year: Jan 2020
-    - title: Become a MERN Stack JavaScript Developer
-      where: LinkedIn Learning
-      year: Nov 2019
     - title: Acquia Certified Site Builder - Drupal 8
       where: Acquia Certification Program
       year: Oct 2018
