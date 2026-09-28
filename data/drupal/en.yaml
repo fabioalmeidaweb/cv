@@ -59,6 +59,15 @@ skills:
         - label: Acquia Site Factory
         - label: Linux
         - label: Git
+    - label: Artificial Intelligence
+      values:
+        - label: Claude Code
+        - label: Pi
+        - label: Agentic Workflows
+        - label: Subagents
+        - label: Skills
+        - label: MCP
+        - label: AI Memory
     - label: Languages
       values:
         - label: English
@@ -74,10 +83,10 @@ experience:
       where: Remote
       description:
         - Developed and architected Drupal solutions including custom module development, YAML configurations, and site management
+        - Built tool-agnostic agentic workflows (Claude Code, Pi) with MCP integrations (Jira, Confluence, Figma), automating bug fixing from ticket to PR with parallel subagents and automated code review in CI
         - Optimized Drupal application performance and security through strategic caching, queue workers, event subscribers, and efficient route management
-        - Integrated Drupal with GatsbyJS to build dynamic, high-performance websites
-        - Implemented modern front-end architecture with React, GatsbyJS, and Storybook
-        - Built applications with React, Redux, and Redux-Saga for efficient state management
+        - Integrated Drupal with GatsbyJS and built modern front-ends with React, Redux-Saga, and Storybook
+        - Developed and maintained a SaaS management platform for agribusiness with React and TypeScript, using Redux Toolkit, Tailwind CSS, and an in-house design system, including Highcharts dashboards, exportable reports, i18n, testing with Jest and Playwright, and BFF APIs with NestJS
         - Led development teams applying best practices and ensuring high-quality deliveries
       skills:
         - Drupal

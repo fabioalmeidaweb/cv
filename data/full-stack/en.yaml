@@ -55,6 +55,15 @@ skills:
         - label: Shadcn/UI
         - label: CSS Modules
         - label: CSS-in-JS
+    - label: Artificial Intelligence
+      values:
+        - label: Claude Code
+        - label: Pi
+        - label: Agentic Workflows
+        - label: Subagents
+        - label: Skills
+        - label: MCP
+        - label: AI Memory
     - label: Languages
       values:
         - label: English
@@ -69,10 +78,11 @@ experience:
       end: Present
       where: Remote
       description:
-        - Developed the front-end of an ETL monitoring dashboard with Vite and React, creating a component-based interface with Shadcn UI and Tailwind CSS to ensure accessibility and responsiveness
-        - Implemented interactive time-series charts with Recharts, including tooltips, zoom, and pan, optimized with lazy loading, memoization, and clear loading/error state handling
-        - Built modern web applications with React, Redux, and Redux-Saga for efficient state management and asynchronous data processing
-        - Integrated Drupal with GatsbyJS to build dynamic, high-performance websites
+        - Built tool-agnostic agentic workflows (Claude Code, Pi) with MCP integrations (Jira, Confluence, Figma), automating bug fixing from ticket to PR with parallel subagents and automated code review in CI
+        - Developed and maintained a SaaS management platform for agribusiness with React and TypeScript, using Redux Toolkit, Tailwind CSS, and an in-house design system, including Highcharts dashboards, exportable reports, i18n, and testing with Jest and Playwright
+        - Developed BFF APIs in Node.js with NestJS aggregating microservices, with JWT authentication, Swagger, PostgreSQL, and Redis, observability with OpenTelemetry and Prometheus, and CI/CD with Docker, GitHub Actions, and GCP
+        - Developed an ETL monitoring dashboard with React, Shadcn UI, and Tailwind CSS, featuring interactive time-series charts with Recharts
+        - Integrated Drupal with GatsbyJS and built React applications with Redux and Redux-Saga for dynamic, high-performance websites
         - Led development teams applying best practices and ensuring high-quality deliveries
       skills:
         - JavaScript
