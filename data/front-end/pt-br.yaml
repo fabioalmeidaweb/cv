@@ -58,6 +58,15 @@ skills:
         - label: NodeJS
         - label: NestJS
         - label: Drupal CMS
+    - label: Inteligência Artificial
+      values:
+        - label: Claude Code
+        - label: Pi
+        - label: Workflows Agênticos
+        - label: Subagentes
+        - label: Skills
+        - label: MCP
+        - label: AI Memory
     - label: Idiomas
       values:
         - label: Português
@@ -72,8 +81,9 @@ experience:
       end: Present
       where: Remoto
       description:
-        - Desenvolveu o front-end de um painel de monitoramento de ETL com Vite e React, criando interface baseada em componentes com Shadcn UI e Tailwind CSS para garantir acessibilidade e responsividade
-        - Implementou gráficos interativos de séries temporais com Recharts, incluindo tooltips, zoom e pan, otimizados com lazy loading, memoização e tratamento claro de estados de carregamento e erro
+        - Criou workflows agênticos agnósticos de ferramenta (Claude Code, Pi) com integrações MCP (Jira, Confluence, Figma), automatizando a correção de bugs do ticket até o PR com subagentes em paralelo e code review automatizado no CI
+        - Desenvolveu e manteve plataforma SaaS de gestão para o agronegócio em React e TypeScript, com Redux Toolkit, Tailwind CSS e design system próprio, incluindo dashboards com Highcharts, relatórios exportáveis, i18n, testes com Jest e Playwright e APIs BFF em NestJS
+        - Desenvolveu painel de monitoramento de ETL com React, Shadcn UI e Tailwind CSS, com gráficos interativos de séries temporais em Recharts
         - Construiu aplicações web modernas com React, Redux e Redux-Saga para gerenciamento eficiente de estado e processamento assíncrono de dados
         - Integrou Drupal com GatsbyJS para construção de sites dinâmicos de alta performance
         - Liderou equipes de desenvolvimento aplicando boas práticas e garantindo entregas de alta qualidade
