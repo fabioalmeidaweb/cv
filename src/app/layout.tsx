@@ -13,7 +13,6 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const isLocalhost = process.env.NODE_ENV === 'development';
-  console.log(isLocalhost);
   return (
     <html lang="en" className="print:text-[14px]">
       {!isLocalhost && (

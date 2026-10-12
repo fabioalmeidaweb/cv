@@ -4,6 +4,7 @@ import { getResumeFilePath, getResumeSlugs } from '@/config/resumes';
 import yaml from 'js-yaml';
 import type { Metadata } from 'next';
 import { Roboto } from 'next/font/google';
+import { notFound } from 'next/navigation';
 
 import type { ResumeData } from '@/types/resume';
 
@@ -59,6 +60,8 @@ export async function generateMetadata({
   };
 }
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   return getResumeSlugs().map((s) => ({ slug: s.split('/') }));
 }
@@ -67,11 +70,7 @@ export default async function Home({ params }: { params: Promise<{ slug: string[
   const { slug } = await params;
   const data = getData(slug);
 
-  if (!data) {
-    return (
-      <h1 className="text-3xl font-bold pb-2 flex justify-center items-center h-screen">Error!</h1>
-    );
-  }
+  if (!data) notFound();
 
   return (
     <>
