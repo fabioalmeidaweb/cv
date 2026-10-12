@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import { getResumeFilePath, getResumeSlugs } from '@/config/resumes';
 import yaml from 'js-yaml';
 import type { Metadata } from 'next';
-import { Roboto } from 'next/font/google';
+import localFont from 'next/font/local';
 import { notFound } from 'next/navigation';
 
 import type { ResumeData } from '@/types/resume';
@@ -18,7 +18,15 @@ import { SkillsSection } from '@/components/resume/SkillsSection';
 
 import './page.module.css';
 
-const font = Roboto({ subsets: ['latin'], weight: '400' });
+// Static (non-variable) Roboto: Chromium embeds variable fonts in PDFs as Type 3 glyphs with uneven spacing.
+const font = localFont({
+  src: [
+    { path: '../../../node_modules/@fontsource/roboto/files/roboto-latin-400-normal.woff2', weight: '400' },
+    { path: '../../../node_modules/@fontsource/roboto/files/roboto-latin-500-normal.woff2', weight: '500' },
+    { path: '../../../node_modules/@fontsource/roboto/files/roboto-latin-600-normal.woff2', weight: '600' },
+    { path: '../../../node_modules/@fontsource/roboto/files/roboto-latin-700-normal.woff2', weight: '700' },
+  ],
+});
 
 function getData(slugParts: string[]): ResumeData | null {
   try {
@@ -75,7 +83,7 @@ export default async function Home({ params }: { params: Promise<{ slug: string[
   return (
     <>
       <div
-        className={`${font.className} mb-3 container mx-auto px-4 py-8 max-w-5xl print:p-0 print:w-full print:max-w-full `}
+        className={`${font.className} mb-3 container mx-auto px-4 py-8 max-w-5xl print:p-0 print:w-full print:max-w-full print:tracking-[0.015em] `}
       >
         <ResumeHeader name={data.name} position={data.position} contacts={data.contacts} />
 

@@ -1,4 +1,4 @@
-import type { SkillsSection } from "@/types/resume";
+import type { SkillsSection } from '@/types/resume';
 
 interface SkillsSectionProps {
   skills: SkillsSection;
@@ -12,7 +12,7 @@ export function SkillsSection({ skills }: SkillsSectionProps) {
       </h2>
       <div className="space-y-2.5">
         {skills.values.map((category, index) => (
-          <div key={index} className="flex flex-col md:flex-row gap-3">
+          <div key={index} className="flex flex-col md:flex-row gap-1">
             <h3 className="text-sm font-semibold text-gray-800 md:w-48 shrink-0">
               {category.label}
             </h3>

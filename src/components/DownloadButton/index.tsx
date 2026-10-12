@@ -9,10 +9,13 @@ export default function DownloadButton({
   name: string;
   position: string;
 }) {
+  // ASCII-only: servers that send Content-Disposition mangle non-ASCII names.
+  const fileName = `${name} - ${position}.pdf`.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+
   return (
     <a
-      href={encodeURIComponent(`${name} - ${position}.pdf`)}
-      download={`${name} - ${position}.pdf`}
+      href={encodeURIComponent(fileName)}
+      download={fileName}
       className="fixed bottom-8 right-8 bg-cyan-600 hover:bg-cyan-700 text-white rounded-full p-4 shadow-lg transition-colors flex items-center gap-2 print:hidden"
       aria-label="Download resume as PDF"
     >
