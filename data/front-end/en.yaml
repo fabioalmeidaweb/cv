@@ -31,7 +31,7 @@ skills:
       values:
         - label: TypeScript
         - label: JavaScript
-        - label: ReactJS
+        - label: React
         - label: NextJS (App Router)
         - label: GatsbyJS
         - label: Redux Toolkit
@@ -40,7 +40,7 @@ skills:
         - label: Highcharts
     - label: Styling
       values:
-        - label: TailwindCSS
+        - label: Tailwind CSS
         - label: Shadcn/UI
         - label: SASS
         - label: CSS Modules
@@ -84,20 +84,22 @@ experience:
           description:
             - Built tool-agnostic agentic workflows (Claude Code, Codex, Pi) with MCP integrations (Jira, Confluence, Figma), automating bug fixing from ticket to PR with parallel subagents and automated code review in CI, cutting average bug-fix time by more than 50%
             - Developed and maintained a management platform used in 30 countries and 3,700+ farms, with React and TypeScript, using Redux Toolkit, Tailwind CSS, and an in-house design system, including Highcharts dashboards, exportable reports, i18n, testing with Jest and Playwright, and BFF APIs with NestJS
-        - name: ETL Monitoring Dashboard
+        - name: Health Insurance Payment Rules System
           description:
-            - Developed the monitoring front-end with React, Shadcn UI, and Tailwind CSS, featuring interactive time-series charts with Recharts
-        - name: Drupal + GatsbyJS
+            - Developed the ETL monitoring front-end for a rules engine that governs payments, with Next.js, React 19, TypeScript, and a design system of 50+ components in Storybook, featuring compliance and performance dashboards, rule editing, and change history
+            - Structured the application in layers (UI kit, domain components, pages, hooks, and services), with server state in TanStack Query, client state in Zustand, Azure AD (OAuth 2.0) authentication, and testing with Vitest
+        - name: Online Pharmacy & Telemedicine Startup
           description:
             - Integrated Drupal with GatsbyJS and built React applications with Redux and Redux-Saga for dynamic, high-performance websites
             - Led teams of up to 5 developers, applying best practices and ensuring high-quality deliveries
       skills:
         - TypeScript
-        - ReactJS
+        - React
         - Redux Toolkit
-        - TailwindCSS
-        - Highcharts
-        - Jest
+        - Tailwind CSS
+        - Next.js
+        - Storybook
+        - Drupal
         - Playwright
         - NestJS
         - Claude Code
@@ -117,7 +119,6 @@ experience:
       skills:
         - Leadership
         - Acquia Cloud
-        - JavaScript
         - Drupal
         - Management
         - Web Vitals
@@ -135,10 +136,10 @@ experience:
         - Managed DevOps and Linux infrastructure
         - Worked with agile methodologies (Scrum) to ensure efficient deliveries
       skills:
-        - SASS
         - PHP
+        - Laravel
         - Drupal
-        - React.js
+        - React
     - company: Encode Web
       position: Back-end Developer
       start: Sep 2015
@@ -149,10 +150,9 @@ experience:
         - Managed DevOps and Linux infrastructure
         - Worked with agile methodologies (Scrum) for efficient deliveries
       skills:
-        - SASS
         - PHP
         - WordPress
-        - Web Applications
+        - Laravel
 education:
   label: Education
   values:

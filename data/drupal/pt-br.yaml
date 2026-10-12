@@ -39,12 +39,12 @@ skills:
     - label: Front-end
       values:
         - label: TypeScript
-        - label: ReactJS
+        - label: React
         - label: Redux Toolkit
         - label: GatsbyJS
         - label: NextJS
         - label: Storybook
-        - label: TailwindCSS
+        - label: Tailwind CSS
         - label: SASS
     - label: DevOps & Testes
       values:
@@ -52,7 +52,6 @@ skills:
         - label: Acquia Site Factory
         - label: Docker
         - label: GitHub Actions
-        - label: GCP
         - label: Jest
         - label: Playwright
     - label: Inteligência Artificial
@@ -79,7 +78,7 @@ experience:
       end: Present
       where: Remoto
       projects:
-        - name: Drupal + GatsbyJS
+        - name: Startup de Farmácia Online e Telemedicina
           description:
             - Desenvolveu e arquitetou soluções Drupal incluindo desenvolvimento de módulos customizados, configurações YAML e gerenciamento de sites
             - Otimizou performance e segurança de aplicações Drupal através de caching estratégico, queue workers, event subscribers e gerenciamento eficiente de rotas
@@ -93,7 +92,7 @@ experience:
         - Drupal
         - PHP
         - TypeScript
-        - ReactJS
+        - React
         - GatsbyJS
         - Storybook
         - Redux Toolkit
@@ -138,8 +137,8 @@ experience:
         - Drupal
         - PHP
         - Twig
-        - React.js
-        - SASS
+        - React
+        - Laravel
     - company: Encode Web
       position: Desenvolvedor Back-end
       start: Sep 2015
@@ -153,7 +152,6 @@ experience:
         - PHP
         - WordPress
         - Laravel
-        - SASS
 education:
   label: Educação
   values:
