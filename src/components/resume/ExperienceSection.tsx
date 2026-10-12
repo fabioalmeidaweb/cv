@@ -26,7 +26,7 @@ export function ExperienceSection({ data }: ExperienceSectionProps) {
       </h2>
       <div className="space-y-6">
         {data.values.map((experience, index) => (
-          <div key={index} className="relative pl-5 border-l-2 border-cyan-600">
+          <div key={index} className="relative pl-5 border-l-2 border-cyan-600 break-inside-avoid">
             <div className="absolute w-3 h-3 bg-cyan-600 rounded-full -left-[7px] top-1.5"></div>
 
             <div className="mb-1">
