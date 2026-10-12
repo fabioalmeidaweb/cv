@@ -16,6 +16,11 @@ npm run dev          # Start development server at http://localhost:3000
 npm run build        # Build static site (output: "export" mode)
 npm start            # Start production server (after build)
 
+# PDF export (one PDF per resume, written next to its HTML in out/)
+npx playwright install chromium   # one-time prerequisite
+npm run build:pdf    # next build + export PDFs
+npm run pdf          # export PDFs from an existing out/ build
+
 # Code Quality
 npm run lint         # Run ESLint on all files
 npm run type-check   # Validate TypeScript types

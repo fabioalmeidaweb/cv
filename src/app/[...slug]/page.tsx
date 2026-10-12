@@ -8,7 +8,7 @@ import { notFound } from 'next/navigation';
 
 import type { ResumeData } from '@/types/resume';
 
-import PrintButton from '@/components/PrintButton';
+import DownloadButton from '@/components/DownloadButton';
 import { AboutSection } from '@/components/resume/AboutSection';
 import { CoursesSection } from '@/components/resume/CoursesSection';
 import { EducationSection } from '@/components/resume/EducationSection';
@@ -87,7 +87,7 @@ export default async function Home({ params }: { params: Promise<{ slug: string[
           <CoursesSection data={data.courses} />
         </div>
       </div>
-      <PrintButton />
+      <DownloadButton slug={slug} name={data.name} position={data.position} />
     </>
   );
 }
